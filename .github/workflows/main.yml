@@ -1,0 +1,38 @@
+name: Auto Update Nodes
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # 每天北京时间早上 8:00 自动运行
+  workflow_dispatch:     # 允许你手动点击按钮运行一次
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: 检查当前目录文件 (排查用)
+        run: ls -R
+
+      - name: Run search script
+        env:
+          MY_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        # 使用 ./ 强制指向当前根目录
+        run: python ./main.py
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add README.md
+          git commit -m "Update nodes for $(date +'%Y-%m-%d')" || exit 0
+          git push
