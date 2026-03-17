@@ -7,7 +7,7 @@ from concurrent.futures import ThreadPoolExecutor
 # 配置区
 GITHUB_TOKEN = os.environ.get("MY_GITHUB_TOKEN")
 # 这里的关键词去掉了日期，日期会在下面代码中动态生成
-BASE_KEYWORDS = ["free clash", "nodes", "高速节点"]
+BASE_KEYWORDS = ["free clash", "nodes", "高速节点"，"clash订阅"]
 
 def get_dates():
     """获取今天和昨天的日期，增加命中率"""
