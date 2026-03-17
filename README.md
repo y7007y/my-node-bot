@@ -1,9 +1,10 @@
 # 📅 自动搜寻节点汇报
 
-> 最后更新时间 (UTC): 2026-03-17 03:11:56
+> 最后更新时间 (UTC): 2026-03-17 03:13:50
 
-### ❌ 今日暂未搜索到有效新链接
+### ✅ 今日找到的有效订阅 (4个)
 
-原因可能是：
-1. GitHub 今日尚未索引到包含关键词的新代码。
-2. 搜索到的链接均已失效 (404/无法连接)。
+- `https://raw.githubusercontent.com/danmaifu/mianfeijiedian/0e821c6a4b6f363315afc3192d3fd5a9682234c9/feed/clash-20260317.yaml`
+- `https://raw.githubusercontent.com/3878590578/VPSscript/43e4172daf18f35af1431d143be1b4e43530896b/flclashyaml/clash.yaml`
+- `https://raw.githubusercontent.com/3878590578/VPSscript/43e4172daf18f35af1431d143be1b4e43530896b/flclashyaml/TelePuliclick-Node.yaml`
+- `https://raw.githubusercontent.com/3878590578/VPSscript/43e4172daf18f35af1431d143be1b4e43530896b/flclashyaml/TCP.yaml`
