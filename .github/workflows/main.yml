@@ -39,7 +39,3 @@ jobs:
           # 如果没有变化则不提交，避免报错
           git commit -m "Update nodes for $(date +'%Y-%m-%d')" || exit 0
           git push
-          
-          git add README.md
-          git commit -m "Update nodes for $(date +'%Y-%m-%d')" || exit 0
-          git push
