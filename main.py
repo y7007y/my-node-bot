@@ -1,83 +1,66 @@
 import requests
-import datetime
+import re
 import os
-import time
+import datetime
 from concurrent.futures import ThreadPoolExecutor
 
-# 配置区
 GITHUB_TOKEN = os.environ.get("MY_GITHUB_TOKEN")
-# 这里的关键词去掉了日期，日期会在下面代码中动态生成
-BASE_KEYWORDS = ["free clash"]
-# , "nodes", "高速节点","clash订阅"
-def get_dates():
-    """获取今天和昨天的日期，增加命中率"""
-    today = datetime.datetime.now()
-    yesterday = today - datetime.timedelta(days=1)
-    return [today.strftime("%m月%d日"), yesterday.strftime("%m月%d日"), today.strftime("%Y-%m-%d")]
 
-def search_github(keyword, date_str):
-    """搜索特定日期和关键词"""
-    query = f"{date_str} {keyword} extension:yaml"
+# 更加宽泛的搜索词，去掉具体的日期限制
+SEARCH_QUERIES = [
+    "clash subscription extension:yaml",
+    "clash nodes 2026 extension:yaml",
+    "githubusercontent.com/filter/config.yaml",
+    "今日更新 clash"
+]
+
+def search_github(query):
+    # sort=indexed & order=desc 确保拿到的是最新被 GitHub 收录的内容
     url = f"https://api.github.com/search/code?q={query}&sort=indexed&order=desc"
     headers = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
-    
     try:
-        res = requests.get(url, headers=headers, timeout=15)
-        if res.status_code == 200:
-            data = res.json()
-            items = data.get('items', [])
-            print(f"🔍 搜索 [{date_str} {keyword}]: 发现 {len(items)} 个潜在结果")
-            return [item['html_url'].replace("github.com", "raw.githubusercontent.com").replace("/blob/", "/") for item in items]
-        else:
-            print(f"❌ 搜索出错 [{keyword}]: {res.status_code} - {res.text}")
-            return []
-    except Exception as e:
-        print(f"⚠️ 网络请求失败: {e}")
+        res = requests.get(url, headers=headers, timeout=15).json()
+        items = res.get('items', [])
+        print(f"🔎 搜索 [{query}]: 找到 {len(items)} 条候选")
+        # 转换为原始文件下载链接
+        return [item['html_url'].replace("github.com", "raw.githubusercontent.com").replace("/blob/", "/") for item in items]
+    except:
         return []
 
 def verify(url):
-    """验证链接是否有效"""
+    """深度验证：不仅看状态码，还要看内容是否真是 Clash 配置"""
     try:
-        # 增加 headers 模拟浏览器，防止被某些服务器拒绝
-        headers = {'User-Agent': 'Mozilla/5.0'}
-        r = requests.get(url, headers=headers, timeout=8)
-        if r.status_code == 200 and ("proxies:" in r.text or "proxy-groups:" in r.text):
-            return url
+        r = requests.get(url, timeout=5, headers={'User-Agent': 'Mozilla/5.0'})
+        if r.status_code == 200:
+            text = r.text
+            # 检查特征字段
+            if any(key in text for key in ["proxies:", "proxy-groups:", "Proxy Group:"]):
+                return url
     except:
         pass
     return None
 
 def main():
-    all_raw_urls = []
-    dates = get_dates()
+    all_urls = []
+    for q in SEARCH_QUERIES:
+        all_urls.extend(search_github(q))
     
-    print(f"🚀 开始任务，尝试日期范围: {dates}")
-    
-    for d in dates:
-        for kw in BASE_KEYWORDS:
-            links = search_github(kw, d)
-            all_raw_urls.extend(links)
-            time.sleep(1) # 稍微停顿，避免触发速率限制
-    
-    unique_links = list(set(all_raw_urls))
-    print(f"📡 正在验证 {len(unique_links)} 个唯一链接的有效性...")
-    
-    valid_links = []
+    unique_urls = list(set(all_urls))
+    print(f"🧪 开始验证 {len(unique_urls)} 个链接...")
+
     with ThreadPoolExecutor(max_workers=10) as exe:
-        valid_links = [r for r in exe.map(verify, unique_links) if r]
-    
+        valid_links = [r for r in exe.map(verify, unique_urls) if r]
+
     # 写入结果
     with open("README.md", "w", encoding="utf-8") as f:
-        f.write(f"# 📅 自动搜寻节点汇报\n\n")
-        f.write(f"> 最后更新时间 (UTC): {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
-        
+        f.write(f"# 🚀 自动化节点监控汇报\n\n")
+        f.write(f"> 更新于: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')} (UTC)\n\n")
         if valid_links:
-            f.write(f"### ✅ 今日找到的有效订阅 ({len(valid_links)}个)\n\n")
+            f.write(f"### ✅ 发现有效订阅 ({len(valid_links)}个)\n\n")
             for link in valid_links:
                 f.write(f"- `{link}`\n")
         else:
-            f.write("### ❌ 今日暂未搜索到有效新链接\n\n")
-            f.write("原因可能是：\n1. GitHub 今日尚未索引到包含关键词的新代码。\n2. 搜索到的链接均已失效 (404/无法连接)。\n")
+            f.write("### 📭 今日暂无新发现\n\n可能原因：API 索引延迟，建议尝试手动触发或增加搜索关键词。")
 
 if __name__ == "__main__":
     main()
