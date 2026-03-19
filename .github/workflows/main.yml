@@ -34,5 +34,12 @@ jobs:
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
           git add README.md
+          # 先拉取远程更改，避免冲突 (--rebase 是为了保持提交记录整洁)
+          git pull --rebase origin main 
+          # 如果没有变化则不提交，避免报错
+          git commit -m "Update nodes for $(date +'%Y-%m-%d')" || exit 0
+          git push
+          
+          git add README.md
           git commit -m "Update nodes for $(date +'%Y-%m-%d')" || exit 0
           git push
