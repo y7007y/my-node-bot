@@ -2,15 +2,22 @@ name: Auto Update Nodes
 
 on:
   schedule:
-    - cron: '0 0 * * *' # 每天北京时间早上 8:00 自动运行
-  workflow_dispatch:     # 允许你手动点击按钮运行一次
+    - cron: '0 0 * * *' # 每天北京时间上午 8:00
+  workflow_dispatch:     # 允许手动触发
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    # 给予 Actions 写入仓库的权限（非常重要）
+    permissions:
+      contents: write
+      
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+        with:
+          # 取消默认的浅克隆，获取完整历史以方便合并
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -20,29 +27,26 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: 检查当前目录文件 (排查用)
-        run: ls -R
+      - name: 1. 配置 Git 信息并同步远程仓库
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          # 在运行脚本前先拉取，确保本地是最新的，避免冲突
+          git pull origin main --rebase
 
-      - name: Run search script
+      - name: 2. 运行 Python 脚本
         env:
           MY_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        # 使用 ./ 强制指向当前根目录
-        run: python ./main.py
+        run: python main.py
 
-      - name: Commit and Push
+      - name: 3. 提交并推送更改
         run: |
-          git config --global user.name "GitHub Action"
-          git config --global user.email "action@github.com"
-          
-          # 1. 尝试拉取远程最新的更改，防止冲突
-          git pull --rebase origin main
-          
-          # 2. 检查 README.md 是否有变动，有变动才提交
           git add README.md
+          # 检查是否有文件变动
           if git diff --staged --quiet; then
-            echo "No changes to commit"
+            echo "没有发现新节点，无需更新 README。"
           else
-            git commit -m "Auto-update nodes $(date +'%Y-%m-%d')"
-            # 3. 强制推送，如果还是冲突就以 Action 生成的为准
+            git commit -m "自动更新节点汇总: $(date +'%Y-%m-%d %H:%M')"
+            # 使用 --force-with-lease 比直接 force 更安全
             git push origin main
           fi
