@@ -124,6 +124,12 @@ def main():
     with open("README.md", "w", encoding="utf-8") as f:
         f.write("# 🚀 全平台节点自动汇报 (2026 版)\n\n")
         f.write(f"> **最近更新**: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')} (UTC)\n")
-        f.write(f"> **数据源**: GitHub (Code Search), GitLab (Snippets), Telegram (Channel Preview)\n\n")
+        f.write(f"> **数据源**: GitHub, GitLab, Telegram\n\n")
         
-        if valid_links
+        # 注意这里：末尾必须有冒号 :
+        if valid_links:
+            f.write(f"### ✅ 本次发现有效订阅 ({len(valid_links)} 个)\n\n")
+            for link in valid_links:
+                f.write(f"- `{link}`\n")
+        else:
+            f.write("### 📭 今日暂无新发现\n")
