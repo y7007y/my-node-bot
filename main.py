@@ -5,86 +5,82 @@ import datetime
 import base64
 from concurrent.futures import ThreadPoolExecutor
 
-# 配置：从 GitHub Secrets 获取令牌
+# 配置
 GITHUB_TOKEN = os.environ.get("MY_GITHUB_TOKEN")
-
-# 精选搜索词：只选出货率最高的
 SEARCH_QUERIES = [
     "clash subscription extension:yaml",
-    "clash 2026 extension:yaml",
     "proxies: name extension:yaml"
 ]
 
 def search_github(query):
-    """利用 GitHub API 搜索代码"""
     url = f"https://api.github.com/search/code?q={query}&sort=indexed&order=desc"
     headers = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
     try:
         res = requests.get(url, headers=headers, timeout=15)
         if res.status_code == 200:
             items = res.json().get('items', [])
-            # 将 HTML 链接转换为 Raw 原始文件链接
             return [item['html_url'].replace("github.com", "raw.githubusercontent.com").replace("/blob/", "/") for item in items]
-    except:
-        pass
+    except: pass
     return []
 
-def verify(url):
-    """验证链接是否有效"""
+def verify_and_score(url):
+    """验证并优选：返回 (URL, 节点数)"""
     try:
-        # 伪装成 Clash 客户端
         headers = {'User-Agent': 'ClashforWindows/0.19.0'}
-        r = requests.get(url, timeout=15, headers=headers, verify=False)
-        if r.status_code == 200:
+        r = requests.get(url, timeout=12, headers=headers, verify=False)
+        if r.status_code == 200 and len(r.content) > 1024: # 优选：文件必须大于 1KB
             content = r.text
-            # 只要包含 proxies 关键字就认为是一个有效的配置
-            if "proxies:" in content or "proxy-groups:" in content:
-                return url
-            # 兼容 Base64 格式
-            try:
-                decoded = base64.b64decode(content[:500]).decode('utf-8', errors='ignore')
-                if "proxies" in decoded or "node" in decoded:
-                    return url
-            except:
-                pass
-    except:
-        pass
+            
+            # 如果是 Base64，先解码再判断
+            if not "proxies:" in content:
+                try:
+                    content = base64.b64decode(content).decode('utf-8', errors='ignore')
+                except: pass
+            
+            # 优选核心逻辑：计算节点关键字 'name:' 出现的次数
+            node_count = content.count('name:')
+            if node_count >= 5: # 优选：节点数大于等于 5 个才要
+                return (url, node_count)
+    except: pass
     return None
 
 def main():
-    print(f"🚀 任务启动: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"🚀 精选模式启动...")
     
-    # 1. 搜集候选
     raw_pool = []
     for q in SEARCH_QUERIES:
-        found = search_github(q)
-        print(f"🔎 搜索 [{q}] 发现: {len(found)} 个候选")
-        raw_pool.extend(found)
+        raw_pool.extend(search_github(q))
     
-    # 2. 去重
     unique_pool = list(set(raw_pool))
-    print(f"🧪 汇总去重后共: {len(unique_pool)} 个链接，开始验证...")
+    print(f"🧪 原始候选: {len(unique_pool)} 个，开始深度优选...")
 
-    # 3. 多线程验证 (提升速度)
+    # 并行验证与打分
+    results = []
     with ThreadPoolExecutor(max_workers=10) as exe:
-        valid_links = [r for r in exe.map(verify, unique_pool) if r]
+        results = [r for r in exe.map(verify_and_score, unique_pool) if r]
 
-    print(f"✅ 最终有效链接: {len(valid_links)} 个")
+    # 按节点数量从大到小排序
+    results.sort(key=lambda x: x[1], reverse=True)
+    
+    # 只取前 20 个最肥的源
+    final_list = results[:20]
 
-    # 4. 写入 README.md
+    print(f"✅ 优选完成，筛选出 {len(final_list)} 个高质量源")
+
     with open("README.md", "w", encoding="utf-8") as f:
-        f.write("# 📡 Clash 节点自动化监控 (GitHub 专版)\n\n")
-        f.write(f"> **最近更新**: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')} (UTC)\n\n")
-        f.write("此列表由 GitHub Actions 自动搜索并验证生成。仅供技术交流，请勿用于非法用途。\n\n")
+        f.write("# 💎 Clash 高质量节点优选报告\n\n")
+        f.write(f"> **更新时间**: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')} (UTC)\n")
+        f.write(f"> **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5\n\n")
         
-        if valid_links:
-            f.write(f"### ✅ 当前有效订阅 ({len(valid_links)} 个)\n\n")
-            for link in valid_links:
-                f.write(f"- `{link}`\n")
+        if final_list:
+            f.write("| 排名 | 订阅链接 | 节点估算 | \n")
+            f.write("| :--- | :--- | :--- | \n")
+            for i, (link, count) in enumerate(final_list, 1):
+                f.write(f"| {i} | `{link}` | {count} 个 |\n")
         else:
-            f.write("### 📭 暂无发现\n\n请检查 API 配额或尝试更换搜索词。")
+            f.write("### 📭 今日暂无高质量发现\n")
 
-    print("🎉 同步完成！")
+    print("🎉 优选报告已生成")
 
 if __name__ == "__main__":
     main()
