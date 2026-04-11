@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # 显式声明写入权限
+      contents: write # 必须显式声明
     
     steps:
       - name: Checkout
@@ -26,6 +26,8 @@ jobs:
       - name: Run script
         env:
           MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+          # 2026年推荐设置，消除Node警告
+          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true 
         run: python main.py
 
       - name: Commit and Push
@@ -33,9 +35,8 @@ jobs:
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Action"
           git add README.md
-          # 只有在 README.md 有变动时才提交，防止 exit code 1
           if git diff --staged --quiet; then
-            echo "No changes to commit"
+            echo "没有变化，跳过提交"
           else
             git commit -m "Auto update nodes"
             git push
