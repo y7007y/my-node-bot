@@ -70,7 +70,7 @@ def verify(url):
             'User-Agent': 'ClashforWindows/0.19.0',
             'Accept': '*/*'
         }
-        r = requests.get(url, timeout=10, headers=headers, allow_redirects=True, verify=False)
+        r = requests.get(url, timeout=15, headers=headers, allow_redirects=True, verify=False)
         if r.status_code == 200:
             text = r.text
             # 判定 A: 包含 YAML 特征
