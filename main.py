@@ -1,3 +1,12 @@
+# 确保在 main.py 的开头导入了所需的库
+import requests
+import os
+# ... 其他导入
+
+# 检查环境变量是否读取成功（调试用）
+token = os.environ.get("MY_GITHUB_TOKEN")
+if not token:
+    print("⚠️ 警告: 未找到 MY_GITHUB_TOKEN，搜索功能将受限")
 import requests
 import re
 import os
