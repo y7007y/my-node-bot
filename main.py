@@ -9,7 +9,7 @@ GITHUB_TOKEN = os.environ.get("MY_GITHUB_TOKEN")
 
 # 1. 调整策略：让搜索更模糊，抓取更激进
 GH_QUERIES = ["clash 2026 extension:yaml", "subscription extension:yaml"]
-GL_KEYWORDS = ["proxies:", "v2ray", "ss-config"] # 搜索内容特征而非标题
+GL_KEYWORDS = ["proxies:", "v2ray", "ss-config","node"] # 搜索内容特征而非标题
 TG_CHANNELS = ["clash_nodes", "v2ray_free", "Clash_Node_Share", "clash_subscription_free"]
 
 def search_github(query):
@@ -43,6 +43,7 @@ def search_telegram():
             # 过滤掉干扰项
             links.extend([f for f in found if not any(x in f for x in ['t.me', 'tg://', 'google', 'apple'])])
         except: continue
+    print(r.text[:500])
     return list(set(links))
 
 def verify(url):
