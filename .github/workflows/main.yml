@@ -1,46 +1,42 @@
-name: Node Monitor Update
+name: Node Monitor
 
 on:
-  workflow_dispatch:      # 允许手动点击运行
+  workflow_dispatch:
   schedule:
-    - cron: '0 */8 * * *' # 每8小时自动运行一次
+    - cron: '0 */6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    # 重要：必须显式声明写入权限，否则无法更新 README.md
     permissions:
-      contents: write
+      contents: write # 显式声明写入权限
     
     steps:
-      # 1. 升级到 v4 以适配 Node.js 24 趋势
-      - name: Checkout Code
+      - name: Checkout
         uses: actions/checkout@v4
 
-      # 2. 升级到 v5
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
-      # 3. 关键：安装脚本运行所需的 requests 库
-      - name: Install Dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests
+      - name: Install dependencies
+        run: pip install requests
 
-      # 4. 运行你的 main.py
-      - name: Run Script
+      - name: Run script
         env:
           MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
         run: python main.py
 
-      # 5. 将修改后的 README.md 推送回仓库
       - name: Commit and Push
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Action"
           git add README.md
-          # 如果没有变化就跳过，防止报错
-          git commit -m "Auto update: $(date)" || exit 0
-          git push
+          # 只有在 README.md 有变动时才提交，防止 exit code 1
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto update nodes"
+            git push
+          fi
