@@ -5,131 +5,105 @@ import datetime
 import base64
 from concurrent.futures import ThreadPoolExecutor
 
-# 配置 GitHub Token
 GITHUB_TOKEN = os.environ.get("MY_GITHUB_TOKEN")
 
-# 1. 搜集策略配置
-# GitHub 专用语法
-GH_QUERIES = ["clash subscription extension:yaml", "clash 2026 extension:yaml"]
-# GitLab 通用特征词 (寻找 YAML 内部关键字比寻找标题更准)
-GL_KEYWORDS = ["proxies: name", "proxy-groups", "clash subscription"]
-# Telegram 公开频道列表
+# 1. 调整策略：让搜索更模糊，抓取更激进
+GH_QUERIES = ["clash 2026 extension:yaml", "subscription extension:yaml"]
+GL_KEYWORDS = ["proxies:", "v2ray", "ss-config"] # 搜索内容特征而非标题
 TG_CHANNELS = ["clash_nodes", "v2ray_free", "Clash_Node_Share", "clash_subscription_free"]
 
 def search_github(query):
-    """GitHub 代码搜索"""
     url = f"https://api.github.com/search/code?q={query}&sort=indexed&order=desc"
     headers = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
     try:
         res = requests.get(url, headers=headers, timeout=15).json()
         items = res.get('items', [])
         return [item['html_url'].replace("github.com", "raw.githubusercontent.com").replace("/blob/", "/") for item in items]
-    except Exception as e:
-        print(f"❌ GitHub 引擎故障: {e}")
-        return []
+    except: return []
 
 def search_gitlab(kw):
-    """GitLab Snippets 搜索"""
+    # 尝试直接从 Snippets 的原始数据搜索
     url = f"https://gitlab.com/api/v4/snippets/public?search={kw}"
     try:
         res = requests.get(url, timeout=15).json()
-        # GitLab API 返回的是 snippet 列表，直接提取 raw_url
-        links = [item.get('raw_url') for item in res if 'raw_url' in item]
-        if links:
-            print(f"📡 GitLab [{kw}]: 发现 {len(links)} 个候选")
-        return links
-    except:
-        return []
+        return [item.get('raw_url') for item in res if 'raw_url' in item]
+    except: return []
 
 def search_telegram():
-    """Telegram 网页版预览嗅探"""
     links = []
+    # 2026年更激进的正则：寻找类似订阅转换或节点的 URL
+    pattern = r'https?://[^\s<>"]+/(?:sub|clash|config|download|api)[^\s<>"]*'
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
-    # 匹配通用的订阅 URL 模式
-    pattern = r'https?://[^\s<>"]+/(?:sub|cl|config|data)[^\s<>"]*'
     
     for c in TG_CHANNELS:
         try:
-            r = requests.get(f"https://t.me/s/{c}", timeout=10, headers=headers)
-            # 提取所有疑似链接
+            # 加上时间戳参数尝试绕过 Telegram 缓存
+            r = requests.get(f"https://t.me/s/{c}?{datetime.datetime.now().timestamp()}", timeout=15, headers=headers)
             found = re.findall(pattern, r.text)
-            # 过滤掉一些明显的非配置文件链接
-            found = [f for f in found if not any(x in f for x in ['tg://', 't.me', 'google.com', 'github.com'])]
-            links.extend(found)
-        except:
-            continue
-    print(f"📡 Telegram 频道: 搜集到 {len(links)} 个候选")
-    return links
+            # 过滤掉干扰项
+            links.extend([f for f in found if not any(x in f for x in ['t.me', 'tg://', 'google', 'apple'])])
+        except: continue
+    return list(set(links))
 
 def verify(url):
-    """深度验证：支持 YAML 和 Base64"""
     if not url: return None
     try:
-        # 模拟真实客户端，防止被反爬
-        headers = {
-            'User-Agent': 'ClashforWindows/0.19.0',
-            'Accept': '*/*'
-        }
-        r = requests.get(url, timeout=20, headers=headers, allow_redirects=True, verify=False)
+        # 伪装成真正的 Clash 客户端，非常重要！
+        headers = {'User-Agent': 'ClashforWindows/0.19.0'}
+        r = requests.get(url, timeout=20, headers=headers, verify=False) # 忽略SSL错误
         if r.status_code == 200:
-            text = r.text
-            # 判定 A: 包含 YAML 特征
-            if any(k in text for k in ["proxies:", "proxy-groups:", "Proxy Group:"]):
+            content = r.text.strip()
+            # 1. 直接 YAML 判定
+            if any(k in content for k in ["proxies:", "proxy-groups:", "Proxy Group:"]):
                 return url
-            
-            # 判定 B: 尝试 Base64 解码检查内容
+            # 2. Base64 全文判定（改进）
             try:
-                # 剔除可能的空格换行再尝试解码
-                raw_content = text.strip()
-                decoded = base64.b64decode(raw_content[:200]).decode('utf-8', errors='ignore')
-                if any(k in decoded for k in ["proxies", "node", "Proxy", "cipher"]):
+                # 尝试解码并检查关键字段
+                decoded = base64.b64decode(content).decode('utf-8', errors='ignore')
+                if any(k in decoded for k in ["proxies", "node", "Proxy", "cipher", "type:"]):
                     return url
-            except:
-                pass
-    except:
-        pass
+            except: pass
+    except: pass
     return None
 
 def main():
-    start_time = datetime.datetime.now()
-    all_raw_urls = []
+    pool = []
     
-    print(f"🚀 任务启动于: {start_time.strftime('%Y-%m-%d %H:%M:%S')}")
+    # --- 阶段性汇总并打印日志，方便你在 Actions 日志查看 ---
+    gh_res = []
+    for q in GH_QUERIES: gh_res.extend(search_github(q))
+    print(f"📡 GitHub 抓取到: {len(gh_res)}")
+    pool.extend(gh_res)
 
-    # --- 阶段 1: GitHub 引擎 ---
-    print("🔎 正在检索 GitHub...")
-    for q in GH_QUERIES:
-        all_raw_urls.extend(search_github(q))
-        
-    # --- 阶段 2: GitLab 引擎 ---
-    print("🔎 正在检索 GitLab...")
-    for kw in GL_KEYWORDS:
-        all_raw_urls.extend(search_gitlab(kw))
-        
-    # --- 阶段 3: Telegram 引擎 ---
-    print("🔎 正在从 Telegram 频道预览提取...")
-    all_raw_urls.extend(search_telegram())
-    
-    # 汇总去重
-    unique_urls = list(set(all_raw_urls))
-    print(f"🧪 初始去重池共计: {len(unique_urls)} 个，开始并行验证...")
-    
-    # --- 阶段 4: 并发验证 ---
+    gl_res = []
+    for kw in GL_KEYWORDS: gl_res.extend(search_gitlab(kw))
+    print(f"📡 GitLab 抓取到: {len(gl_res)}")
+    pool.extend(gl_res)
+
+    tg_res = search_telegram()
+    print(f"📡 Telegram 抓取到: {len(tg_res)}")
+    pool.extend(tg_res)
+
+    unique_pool = list(set(pool))
+    print(f"🧪 总计候选池: {len(unique_pool)}")
+
     with ThreadPoolExecutor(max_workers=15) as exe:
-        valid_links = [r for r in exe.map(verify, unique_urls) if r]
-    
-    print(f"✅ 验证通过: {len(valid_links)} 个")
-    
-    # --- 阶段 5: 写入报告 ---
+        valid_links = [r for r in exe.map(verify, unique_pool) if r]
+
+    print(f"✅ 验证通过总数: {len(valid_links)}")
+
+    # 写入 README (确保冒号没丢)
     with open("README.md", "w", encoding="utf-8") as f:
-        f.write("# 🚀 全平台节点自动汇报 (2026 版)\n\n")
-        f.write(f"> **最近更新**: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')} (UTC)\n")
-        f.write(f"> **数据源**: GitHub, GitLab, Telegram\n\n")
-        
-        # 注意这里：末尾必须有冒号 :
+        f.write("# 🚀 全平台节点自动汇报\n\n")
+        f.write(f"> 最后更新: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')} (UTC)\n\n")
         if valid_links:
-            f.write(f"### ✅ 本次发现有效订阅 ({len(valid_links)} 个)\n\n")
+            f.write(f"### ✅ 本次有效发现 ({len(valid_links)}个)\n\n")
             for link in valid_links:
-                f.write(f"- `{link}`\n")
+                # 标记非 GitHub 的来源，方便观察
+                source_tag = " [Web/TG]" if "github" not in link.lower() else ""
+                f.write(f"- `{link}`{source_tag}\n")
         else:
-            f.write("### 📭 今日暂无新发现\n")
+            f.write("### 📭 今日暂无发现\n")
+
+if __name__ == "__main__":
+    main()
