@@ -95,7 +95,7 @@ def main():
     raw_urls = []
 
     # --- 搜集阶段 ---
-    print("🔎 正在从 GitHub 搜集...")
+    print("🔎 正在从 GitHub 搜集...")  # 确保这里有右引号和右括号
     for q in GITHUB_SPECIFIC_QUERIES:
         raw_urls.extend(search_github(q))
 
@@ -103,4 +103,10 @@ def main():
     for kw in UNIVERSAL_KEYWORDS:
         raw_urls.extend(search_gitlab(kw))
 
-    print("🔎 正在从
+    print("🔎 正在从 Telegram 频道预览搜集...")
+    raw_urls.extend(search_telegram_web())
+
+    print("🔗 正在整合静态源...")
+    raw_urls.extend(STATIC_SOURCES)
+    
+    # ... 后续代码保持不变
