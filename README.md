@@ -1,6 +1,6 @@
 # 💎 Clash 高质量节点优选报告
 
-> **更新时间**: 2026-04-12 12:32:16 (UTC)
+> **更新时间**: 2026-04-12 18:29:31 (UTC)
 > **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5
 
 | 排名 | 订阅链接 | 节点估算 | 
@@ -21,7 +21,7 @@
 | 14 | `https://raw.githubusercontent.com/10ium/MihomoSaz/4df3f1a4c2db13b82144131c458942b39346a3cd/Sublist/namira.dev.yaml` | 35 个 |
 | 15 | `https://raw.githubusercontent.com/REECE-LI/OpenClashRule/047b5525c152241f34c28a7b07352060641ac117/ClashRule.yaml` | 34 个 |
 | 16 | `https://raw.githubusercontent.com/feixiang-1/feixiang-1/ea6d6bb10a85168cba9a26e937eb7f0a627b5f8f/clash/clash_meta_mihomo.yaml` | 28 个 |
-| 17 | `https://raw.githubusercontent.com/jnlaoshu/MySelf/b167b9b76aff00aecbba9ba26842223d52471c44/Clash/ClashVerge/Profile.yaml` | 26 个 |
+| 17 | `https://raw.githubusercontent.com/jnlaoshu/MySelf/04eaccdba26105fa1550070a6a60a907a97c4afb/Clash/ClashVerge/Profile.yaml` | 26 个 |
 | 18 | `https://raw.githubusercontent.com/logicrw/clash-rules/cb8c660035421cef448a6830efd57118b03fe779/config/clash-verge.yaml` | 24 个 |
 | 19 | `https://raw.githubusercontent.com/maplelgj/TV/c9264f50a436e5cb67eda56e331f5619783c08ed/clash.yaml` | 22 个 |
 | 20 | `https://raw.githubusercontent.com/dalazhi/v2ray/e9faf95b7afc01b52b58c3bd3cf3b95e142d4eec/tj1.yaml` | 21 个 |
