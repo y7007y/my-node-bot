@@ -1,6 +1,6 @@
 # 💎 Clash 高质量节点优选报告
 
-> **更新时间**: 2026-04-13 18:56:58 (UTC)
+> **更新时间**: 2026-04-14 00:24:28 (UTC)
 > **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5
 
 | 排名 | 订阅链接 | 节点估算 | 
@@ -20,7 +20,7 @@
 | 13 | `https://raw.githubusercontent.com/feixiang-1/feixiang-1/ea6d6bb10a85168cba9a26e937eb7f0a627b5f8f/clash/clash_meta_mihomo.yaml` | 28 个 |
 | 14 | `https://raw.githubusercontent.com/mgit0001/test_clash/23ec5b6645df8b6c76dc46b053f870b77d8801fe/tgs.yaml` | 25 个 |
 | 15 | `https://raw.githubusercontent.com/logicrw/clash-rules/cb8c660035421cef448a6830efd57118b03fe779/config/clash-verge.yaml` | 24 个 |
-| 16 | `https://raw.githubusercontent.com/dalazhi/v2ray/06549aeb3a4d54353deda7c5e0746718aae78da5/tj1.yaml` | 21 个 |
+| 16 | `https://raw.githubusercontent.com/dalazhi/v2ray/5a994f869d1de50c52185bea21847f1c0512429d/tj1.yaml` | 21 个 |
 | 17 | `https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/2a654dc7a7a0990133b1e7f8626f265634691227/Archive/clash/GreenFish.yaml` | 20 个 |
 | 18 | `https://raw.githubusercontent.com/Eos-Xda/Ez/9ae36e3006f312ea96960750add812e7f9e84585/SG.yaml` | 20 个 |
 | 19 | `https://raw.githubusercontent.com/abbasdvd3/clash/be792bdac2a3b70a88cc3ebbdddac963edfc48ea/B.yaml` | 19 个 |
