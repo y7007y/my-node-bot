@@ -1,6 +1,6 @@
 # 💎 Clash 高质量节点优选报告
 
-> **更新时间**: 2026-04-16 18:55:09 (UTC)
+> **更新时间**: 2026-04-17 01:16:03 (UTC)
 > **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5
 
 | 排名 | 订阅链接 | 节点估算 | 
@@ -24,4 +24,4 @@
 | 17 | `https://raw.githubusercontent.com/LabNow-ai/lab-dev/577b0fae9082a567596a125d99664797144e2003/docker_clash/work/clash/config.yaml` | 28 个 |
 | 18 | `https://raw.githubusercontent.com/feixiang-1/feixiang-1/ea6d6bb10a85168cba9a26e937eb7f0a627b5f8f/clash/clash_meta_mihomo.yaml` | 28 个 |
 | 19 | `https://raw.githubusercontent.com/logicrw/clash-rules/98ff099a4e52a7ff2d66d8d9dc177b959e32a0af/config/clash-verge.yaml` | 24 个 |
-| 20 | `https://raw.githubusercontent.com/dalazhi/v2ray/0949e2fb2495221ac8c1c9b6ee40918f1036989d/tj1.yaml` | 21 个 |
+| 20 | `https://raw.githubusercontent.com/dalazhi/v2ray/eca203ea46dd59c43667f7f722ef0c7451e23d3c/tj1.yaml` | 21 个 |
