@@ -1,27 +1,25 @@
 # 💎 Clash 高质量节点优选报告
 
-> **更新时间**: 2026-04-19 18:30:39 (UTC)
+> **更新时间**: 2026-04-20 01:18:03 (UTC)
 > **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5
 
 | 排名 | 订阅链接 | 节点估算 | 
 | :--- | :--- | :--- | 
-| 1 | `https://raw.githubusercontent.com/VPN-Subcription-Links/ClashX-V2Ray-TopFreeProxy/4486b10a0caf94cb8a83de791574177f43c87c65/combine/clash.config.yaml` | 367 个 |
-| 2 | `https://raw.githubusercontent.com/asgharkapk/Free-Clash-Meta/dfc89a8888384bd266b73ebe5451832486b71c8a/Sublist/Simple/[190]___v2ray/itsyebekhe/PSG/subscriptions/clash/vmess_domain.yaml` | 167 个 |
-| 3 | `https://raw.githubusercontent.com/emanuelfreitas/3gpp-documentation/0bc726e0f10aa7a3ba3b39b358810bc994661331/apis/TS29503_Nudm_SDM.yaml` | 155 个 |
-| 4 | `https://raw.githubusercontent.com/vxiaov/free_proxy_ss/b0ead74ad5d1a47575bb5c06ada761437960ffc0/config.yaml` | 111 个 |
-| 5 | `https://raw.githubusercontent.com/cn-uuuss/web/0756540dbdab6e17f5734dce54954ec57b4f0fde/AmyTelecom_Clash%20.yaml` | 62 个 |
-| 6 | `https://raw.githubusercontent.com/freeproxyvpn/freeproxyvpn.github.io/dfa11a6bd5c01e13e05be7f7d0ac45d8dfbdd649/uploads/2026/02/3-20260215.yaml` | 51 个 |
-| 7 | `https://raw.githubusercontent.com/wangbaoqiang-lixiaolu/substore/6c49a70b5c5d1301e195465eb0ef18755a98e30c/free.yaml` | 47 个 |
-| 8 | `https://raw.githubusercontent.com/LUCK777777/clash-rule/a4fa44e4de3b27dcc5d9ee740e0f18ff01881295/egernL.yaml` | 43 个 |
-| 9 | `https://raw.githubusercontent.com/ygyzy/ygyzy.github.io/028c5a9a70bac64b4c9a81340caaa8bd3d220736/vpn/clashmeta.yaml` | 41 个 |
-| 10 | `https://raw.githubusercontent.com/Chtryui/rule/ef70b77d9b305c170252b4262233b1ca817e26d6/2.yaml` | 39 个 |
-| 11 | `https://raw.githubusercontent.com/go4sharing/sub/5b0cf529e9bd88195d36adac02faa66050ddb598/2026/03-21.yaml` | 37 个 |
-| 12 | `https://raw.githubusercontent.com/lirundong/homelab-infra/383ba444cc7a8a0da85bb936f7160b9d565c8973/conf-gen/source.yaml` | 36 个 |
-| 13 | `https://raw.githubusercontent.com/10ium/MihomoSaz/4df3f1a4c2db13b82144131c458942b39346a3cd/Sublist/namira.dev.yaml` | 35 个 |
-| 14 | `https://raw.githubusercontent.com/10ium/MihomoSaz/4df3f1a4c2db13b82144131c458942b39346a3cd/Sublist/firefoxmmx2.yaml` | 35 个 |
-| 15 | `https://raw.githubusercontent.com/mikoto2464/clash-config/8d4fc8ffb0b190545bda0f84d05910cb27782f15/tg.yaml` | 31 个 |
-| 16 | `https://raw.githubusercontent.com/feixiang-1/feixiang-1/ea6d6bb10a85168cba9a26e937eb7f0a627b5f8f/clash/clash_meta_mihomo.yaml` | 28 个 |
-| 17 | `https://raw.githubusercontent.com/logicrw/clash-rules/98ff099a4e52a7ff2d66d8d9dc177b959e32a0af/config/clash-verge.yaml` | 24 个 |
-| 18 | `https://raw.githubusercontent.com/dalazhi/v2ray/6ba9dd77d64be6eeebcf3437f2784489df9e6770/tj1.yaml` | 21 个 |
-| 19 | `https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/2a654dc7a7a0990133b1e7f8626f265634691227/Archive/clash/GreenFish.yaml` | 20 个 |
-| 20 | `https://raw.githubusercontent.com/lang999/clash/cbb2bc4e4e0d54bd40f8f98c6fe0046109f7ab74/71.yaml` | 19 个 |
+| 1 | `https://raw.githubusercontent.com/asgharkapk/Free-Clash-Meta/dfc89a8888384bd266b73ebe5451832486b71c8a/Sublist/Simple/[190]___v2ray/itsyebekhe/PSG/subscriptions/clash/vmess_domain.yaml` | 167 个 |
+| 2 | `https://raw.githubusercontent.com/emanuelfreitas/3gpp-documentation/0bc726e0f10aa7a3ba3b39b358810bc994661331/apis/TS29503_Nudm_SDM.yaml` | 155 个 |
+| 3 | `https://raw.githubusercontent.com/cn-uuuss/web/0756540dbdab6e17f5734dce54954ec57b4f0fde/AmyTelecom_Clash%20.yaml` | 62 个 |
+| 4 | `https://raw.githubusercontent.com/ygyzy/ygyzy.github.io/028c5a9a70bac64b4c9a81340caaa8bd3d220736/vpn/clashmeta.yaml` | 41 个 |
+| 5 | `https://raw.githubusercontent.com/lirundong/homelab-infra/383ba444cc7a8a0da85bb936f7160b9d565c8973/conf-gen/source.yaml` | 36 个 |
+| 6 | `https://raw.githubusercontent.com/10ium/MihomoSaz/4df3f1a4c2db13b82144131c458942b39346a3cd/Sublist/firefoxmmx2.yaml` | 35 个 |
+| 7 | `https://raw.githubusercontent.com/10ium/MihomoSaz/4df3f1a4c2db13b82144131c458942b39346a3cd/Sublist/namira.dev.yaml` | 35 个 |
+| 8 | `https://raw.githubusercontent.com/feixiang-1/feixiang-1/ea6d6bb10a85168cba9a26e937eb7f0a627b5f8f/clash/clash_meta_mihomo.yaml` | 28 个 |
+| 9 | `https://raw.githubusercontent.com/logicrw/clash-rules/98ff099a4e52a7ff2d66d8d9dc177b959e32a0af/config/clash-verge.yaml` | 24 个 |
+| 10 | `https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/2a654dc7a7a0990133b1e7f8626f265634691227/Archive/clash/GreenFish.yaml` | 20 个 |
+| 11 | `https://raw.githubusercontent.com/Uber-Eins/NetConfig/754738326897962f49f01e83d4d0d698053530fc/Config/Clash-Verge/Config/Main.yaml` | 18 个 |
+| 12 | `https://raw.githubusercontent.com/vxiaov/Koolshare-Clash-openwrt-amd64/18178d5d5c13b3b96cf8ec7eefbb37ce9d1c1966/koolclash/koolclash/config/default_clash_file.yaml` | 14 个 |
+| 13 | `https://raw.githubusercontent.com/gh-liu/dotfiles/62eebd1ec601672a2ea8bf213e92802269a63955/run/clash.yaml` | 13 个 |
+| 14 | `https://raw.githubusercontent.com/abbasdvd3/clash/7efedc14e483f25af766135ba44341e0319b4ada/hamrah5.yaml` | 13 个 |
+| 15 | `https://raw.githubusercontent.com/cmontage/proxyrules-cm/6ebd555acfa18df5fecab12d60a3d8d3a1bc53f3/clash.yaml` | 12 个 |
+| 16 | `https://raw.githubusercontent.com/DANTECK-dev/VPN_SERVICE/67e2d8e0f367edb3ddf196d7f8a41e1772da7d67/services/api_gateway/swagger.yaml` | 12 个 |
+| 17 | `https://raw.githubusercontent.com/changfengoss/pub/02400b3a7bc08d1ab406436d4a0160bc85d13038/data/2023_12_20/VAfLRm.yaml` | 10 个 |
+| 18 | `https://raw.githubusercontent.com/NineThoughts0521/clash-residential-proxy-parser/002d59422a65a1d31ffb3fa5e4fbf6865eb1ad5f/examples/basic-example.yaml` | 5 个 |
