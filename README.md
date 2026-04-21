@@ -1,6 +1,6 @@
 # 💎 Clash 高质量节点优选报告
 
-> **更新时间**: 2026-04-21 07:18:43 (UTC)
+> **更新时间**: 2026-04-21 12:54:19 (UTC)
 > **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5
 
 | 排名 | 订阅链接 | 节点估算 | 
@@ -19,9 +19,9 @@
 | 12 | `https://raw.githubusercontent.com/jnlaoshu/MySelf/8cc3e0d73b9f9e623629b042b96a4a05eb8dfc2c/Clash/ClashVerge/Profile.yaml` | 26 个 |
 | 13 | `https://raw.githubusercontent.com/john-walks-slow/universal-clash-script/d3d1692a7dab29b63745b36a1f5c528283c63f71/universal_clash_profile.yaml` | 26 个 |
 | 14 | `https://raw.githubusercontent.com/logicrw/clash-rules/98ff099a4e52a7ff2d66d8d9dc177b959e32a0af/config/clash-verge.yaml` | 24 个 |
-| 15 | `https://raw.githubusercontent.com/wangbaoqiang-lixiaolu/substore/a1a745be043746e53585e32151b5ad91a712f349/grok.yaml` | 22 个 |
-| 16 | `https://raw.githubusercontent.com/OpenWrt-Actions/OpenWrt-Packages/967386ceaef81e218679c9477455fddedbf84730/luci-app-openclash/root/usr/share/openclash/res/default.yaml` | 22 个 |
+| 15 | `https://raw.githubusercontent.com/OpenWrt-Actions/OpenWrt-Packages/967386ceaef81e218679c9477455fddedbf84730/luci-app-openclash/root/usr/share/openclash/res/default.yaml` | 22 个 |
+| 16 | `https://raw.githubusercontent.com/wangbaoqiang-lixiaolu/substore/a1a745be043746e53585e32151b5ad91a712f349/grok.yaml` | 22 个 |
 | 17 | `https://raw.githubusercontent.com/HenryChiao/MIHOMO_YAMLS/e0b2bbda2750650a34f9cf08c2069ef69162e722/THEYAMLS/Official_Examples/Metacubex/rule-set_config.yaml` | 21 个 |
-| 18 | `https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/2a654dc7a7a0990133b1e7f8626f265634691227/Archive/clash/GreenFish.yaml` | 20 个 |
-| 19 | `https://raw.githubusercontent.com/yscr3236/dinye/3131df6c1689936800cc6fb8e991dde837254c61/clash_meta_noni.yaml` | 20 个 |
+| 18 | `https://raw.githubusercontent.com/yscr3236/dinye/3131df6c1689936800cc6fb8e991dde837254c61/clash_meta_noni.yaml` | 20 个 |
+| 19 | `https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/2a654dc7a7a0990133b1e7f8626f265634691227/Archive/clash/GreenFish.yaml` | 20 个 |
 | 20 | `https://raw.githubusercontent.com/abbasdvd3/clash/7efedc14e483f25af766135ba44341e0319b4ada/B.yaml` | 19 个 |
