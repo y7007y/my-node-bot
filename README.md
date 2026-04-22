@@ -1,6 +1,6 @@
 # 💎 Clash 高质量节点优选报告
 
-> **更新时间**: 2026-04-22 12:54:21 (UTC)
+> **更新时间**: 2026-04-22 18:54:35 (UTC)
 > **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5
 
 | 排名 | 订阅链接 | 节点估算 | 
@@ -15,13 +15,13 @@
 | 8 | `https://raw.githubusercontent.com/sultan1sa/Script-conf/bc0766758ea78f36ae0998549fc2458976186fc1/Egern.yaml` | 49 个 |
 | 9 | `https://raw.githubusercontent.com/liujingvpn/openclash/9e32ba9d6299f378a109edae146ef92610b9e52f/ALL.yaml` | 43 个 |
 | 10 | `https://raw.githubusercontent.com/wangbaoqiang-lixiaolu/substore/a1a745be043746e53585e32151b5ad91a712f349/grok2.yaml` | 39 个 |
-| 11 | `https://raw.githubusercontent.com/archlinuxcn/repo/003079ebcbdc707881aa9dcf8aacab9f09d337e7/archlinuxcn/mihomo/config.yaml` | 36 个 |
+| 11 | `https://raw.githubusercontent.com/archlinuxcn/repo/19c04b9b5ae825bbe156a0eb457688d4e2027bfe/archlinuxcn/mihomo/config.yaml` | 36 个 |
 | 12 | `https://raw.githubusercontent.com/Aimezvous/rules/38049d2ee24039271cb2a8e7b1863b75ef0d0354/fl.yaml` | 35 个 |
 | 13 | `https://raw.githubusercontent.com/net775/paopao/d87d2170d5c8a8513f08bdbe28bbc8267300a764/lad2.yaml` | 34 个 |
 | 14 | `https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/69ba3abd11740a0f6fc99b6b7ee72521cc89e7ff/micro.yaml` | 32 个 |
 | 15 | `https://raw.githubusercontent.com/jnlaoshu/MySelf/b8eb313e95f96b270e0e6fb577d7f588607351cb/Clash/ClashVerge/Profile.yaml` | 26 个 |
-| 16 | `https://raw.githubusercontent.com/Xm798/Tools/3a5aa975cfda84d9ba9c611cb0aab3fdc111f93f/ProxyRules/Clash.yaml` | 26 个 |
-| 17 | `https://raw.githubusercontent.com/logicrw/clash-rules/98ff099a4e52a7ff2d66d8d9dc177b959e32a0af/config/clash-verge.yaml` | 24 个 |
-| 18 | `https://raw.githubusercontent.com/yscr3236/dinye/3131df6c1689936800cc6fb8e991dde837254c61/clash_meta_noni.yaml` | 20 个 |
-| 19 | `https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/2a654dc7a7a0990133b1e7f8626f265634691227/Archive/clash/GreenFish.yaml` | 20 个 |
-| 20 | `https://raw.githubusercontent.com/abbasdvd3/clash/7efedc14e483f25af766135ba44341e0319b4ada/B.yaml` | 19 个 |
+| 16 | `https://raw.githubusercontent.com/logicrw/clash-rules/98ff099a4e52a7ff2d66d8d9dc177b959e32a0af/config/clash-verge.yaml` | 24 个 |
+| 17 | `https://raw.githubusercontent.com/yscr3236/dinye/3131df6c1689936800cc6fb8e991dde837254c61/clash_meta_noni.yaml` | 20 个 |
+| 18 | `https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/2a654dc7a7a0990133b1e7f8626f265634691227/Archive/clash/GreenFish.yaml` | 20 个 |
+| 19 | `https://raw.githubusercontent.com/abbasdvd3/clash/7efedc14e483f25af766135ba44341e0319b4ada/B.yaml` | 19 个 |
+| 20 | `https://raw.githubusercontent.com/refined-fish/clash_rule_fish/30fd167bc123bdf771e4b9f2928d058490b4e313/Backup/FISH-Template-redir-host.yaml` | 18 个 |
