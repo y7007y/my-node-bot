@@ -1,6 +1,6 @@
 # 💎 Clash 高质量节点优选报告
 
-> **更新时间**: 2026-04-24 07:31:15 (UTC)
+> **更新时间**: 2026-04-24 12:52:39 (UTC)
 > **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5
 
 | 排名 | 订阅链接 | 节点估算 | 
@@ -17,7 +17,7 @@
 | 10 | `https://raw.githubusercontent.com/Koswara1985/OpenWrt/e143638f18081b36920c79d1fc580982ec460a22/RG_SG.yaml` | 50 个 |
 | 11 | `https://raw.githubusercontent.com/sultan1sa/Script-conf/bc0766758ea78f36ae0998549fc2458976186fc1/Egern.yaml` | 49 个 |
 | 12 | `https://raw.githubusercontent.com/ygyzy/ygyzy.github.io/028c5a9a70bac64b4c9a81340caaa8bd3d220736/vpn/clashmeta.yaml` | 41 个 |
-| 13 | `https://raw.githubusercontent.com/archlinuxcn/repo/512243c8a7629238838c385dd14297513a2e1ccf/archlinuxcn/mihomo/config.yaml` | 36 个 |
+| 13 | `https://raw.githubusercontent.com/archlinuxcn/repo/3b116b788513c1ddacfc2532af69a0b79348f4ac/archlinuxcn/mihomo/config.yaml` | 36 个 |
 | 14 | `https://raw.githubusercontent.com/Aimezvous/rules/38049d2ee24039271cb2a8e7b1863b75ef0d0354/fl.yaml` | 35 个 |
 | 15 | `https://raw.githubusercontent.com/net775/paopao/d87d2170d5c8a8513f08bdbe28bbc8267300a764/lad2.yaml` | 34 个 |
 | 16 | `https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/69ba3abd11740a0f6fc99b6b7ee72521cc89e7ff/micro.yaml` | 32 个 |
