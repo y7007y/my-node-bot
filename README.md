@@ -1,6 +1,6 @@
 # 💎 Clash 高质量节点优选报告
 
-> **更新时间**: 2026-04-25 06:59:19 (UTC)
+> **更新时间**: 2026-04-25 12:33:58 (UTC)
 > **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5
 
 | 排名 | 订阅链接 | 节点估算 | 
@@ -19,9 +19,9 @@
 | 12 | `https://raw.githubusercontent.com/ygyzy/ygyzy.github.io/028c5a9a70bac64b4c9a81340caaa8bd3d220736/vpn/clashmeta.yaml` | 41 个 |
 | 13 | `https://raw.githubusercontent.com/godlikeanyone/Rules/8d45d59acc0866e3b588874bc80d0ac8a25083ab/LA.yaml` | 41 个 |
 | 14 | `https://raw.githubusercontent.com/go4sharing/sub/8c7c5d3f1599e0400a29c050c735776a4da60ecf/2026/03-21.yaml` | 37 个 |
-| 15 | `https://raw.githubusercontent.com/10ium/MihomoSaz/4df3f1a4c2db13b82144131c458942b39346a3cd/Sublist/namira.dev.yaml` | 35 个 |
-| 16 | `https://raw.githubusercontent.com/10ium/MihomoSaz/4df3f1a4c2db13b82144131c458942b39346a3cd/Sublist/firefoxmmx2.yaml` | 35 个 |
+| 15 | `https://raw.githubusercontent.com/10ium/MihomoSaz/4df3f1a4c2db13b82144131c458942b39346a3cd/Sublist/firefoxmmx2.yaml` | 35 个 |
+| 16 | `https://raw.githubusercontent.com/10ium/MihomoSaz/4df3f1a4c2db13b82144131c458942b39346a3cd/Sublist/namira.dev.yaml` | 35 个 |
 | 17 | `https://raw.githubusercontent.com/REECE-LI/OpenClashRule/047b5525c152241f34c28a7b07352060641ac117/ClashRule.yaml` | 34 个 |
-| 18 | `https://raw.githubusercontent.com/Alpharoy/test/5c1a8e67cdca467cf8fc4442c32bb65b3a9bad25/sub.yaml` | 30 个 |
-| 19 | `https://raw.githubusercontent.com/cddcx/build-actions/dbf670099f26d5d46d63e488832eadfc1926d576/cd.yaml` | 30 个 |
+| 18 | `https://raw.githubusercontent.com/cddcx/build-actions/dbf670099f26d5d46d63e488832eadfc1926d576/cd.yaml` | 30 个 |
+| 19 | `https://raw.githubusercontent.com/Alpharoy/test/5c1a8e67cdca467cf8fc4442c32bb65b3a9bad25/sub.yaml` | 30 个 |
 | 20 | `https://raw.githubusercontent.com/feixiang-1/feixiang-1/ea6d6bb10a85168cba9a26e937eb7f0a627b5f8f/clash/clash_meta_mihomo.yaml` | 28 个 |
