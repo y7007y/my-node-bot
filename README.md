@@ -1,6 +1,6 @@
 # 💎 Clash 高质量节点优选报告
 
-> **更新时间**: 2026-04-27 13:12:02 (UTC)
+> **更新时间**: 2026-04-27 19:01:06 (UTC)
 > **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5
 
 | 排名 | 订阅链接 | 节点估算 | 
@@ -12,7 +12,7 @@
 | 5 | `https://raw.githubusercontent.com/a97083435/tang/eceaa8014d923a2940293f78a32a77fe480c7144/2022.yaml` | 55 个 |
 | 6 | `https://raw.githubusercontent.com/freeproxyvpn/freeproxyvpn.github.io/5769cbe6d0561c0946937180abe341a97264b60d/uploads/2026/02/3-20260215.yaml` | 51 个 |
 | 7 | `https://raw.githubusercontent.com/sultan1sa/Script-conf/bc0766758ea78f36ae0998549fc2458976186fc1/Egern.yaml` | 49 个 |
-| 8 | `https://raw.githubusercontent.com/go4sharing/sub/06652bc5df507e8b37312ba95719a5d3e6cd79be/2026/03-21.yaml` | 37 个 |
+| 8 | `https://raw.githubusercontent.com/go4sharing/sub/98b1a45b916fe5cb2171d180e57542063ccf2f4a/2026/03-21.yaml` | 37 个 |
 | 9 | `https://raw.githubusercontent.com/10ium/MihomoSaz/4df3f1a4c2db13b82144131c458942b39346a3cd/Sublist/firefoxmmx2.yaml` | 35 个 |
 | 10 | `https://raw.githubusercontent.com/10ium/MihomoSaz/4df3f1a4c2db13b82144131c458942b39346a3cd/Sublist/namira.dev.yaml` | 35 个 |
 | 11 | `https://raw.githubusercontent.com/REECE-LI/OpenClashRule/047b5525c152241f34c28a7b07352060641ac117/ClashRule.yaml` | 34 个 |
@@ -21,7 +21,7 @@
 | 14 | `https://raw.githubusercontent.com/papapapapdelesia/Privat-YUMI/9ff1a7ce8b76bc46f75555633980c275be094a96/Clash/Flclash-Yumi-v2alpa.yaml` | 25 个 |
 | 15 | `https://raw.githubusercontent.com/logicrw/clash-rules/98ff099a4e52a7ff2d66d8d9dc177b959e32a0af/config/clash-verge.yaml` | 24 个 |
 | 16 | `https://raw.githubusercontent.com/maplelgj/TV/c9264f50a436e5cb67eda56e331f5619783c08ed/clash.yaml` | 22 个 |
-| 17 | `https://raw.githubusercontent.com/dalazhi/v2ray/26611cee28fa1d30d1739efedb70f6ba26ef5409/tj1.yaml` | 21 个 |
+| 17 | `https://raw.githubusercontent.com/dalazhi/v2ray/23ef3d3f590128d936b584072b22c434b1494594/tj1.yaml` | 21 个 |
 | 18 | `https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/2a654dc7a7a0990133b1e7f8626f265634691227/Archive/clash/GreenFish.yaml` | 20 个 |
 | 19 | `https://raw.githubusercontent.com/Uber-Eins/NetConfig/efaa933c12b79c4bba7f9df9189204c84035043c/Config/Clash-Verge/Config/Main.yaml` | 18 个 |
 | 20 | `https://raw.githubusercontent.com/Infatuation-Fei/rule/56800d115ad74e34a85cc1082dbb91e0952dcc66/Stash/%E9%85%8D%E7%BD%AE%E6%A8%A1%E6%9D%BF/Config%20for%20Stash.yaml` | 18 个 |
