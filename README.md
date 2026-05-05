@@ -1,6 +1,6 @@
 # 💎 Clash 高质量节点优选报告
 
-> **更新时间**: 2026-05-04 19:08:59 (UTC)
+> **更新时间**: 2026-05-05 01:26:10 (UTC)
 > **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5
 
 | 排名 | 订阅链接 | 节点估算 | 
@@ -19,9 +19,9 @@
 | 12 | `https://raw.githubusercontent.com/Aimezvous/rules/38049d2ee24039271cb2a8e7b1863b75ef0d0354/fl.yaml` | 35 个 |
 | 13 | `https://raw.githubusercontent.com/REECE-LI/OpenClashRule/047b5525c152241f34c28a7b07352060641ac117/ClashRule.yaml` | 34 个 |
 | 14 | `https://raw.githubusercontent.com/logicrw/clash-rules/98ff099a4e52a7ff2d66d8d9dc177b959e32a0af/config/clash-verge.yaml` | 24 个 |
-| 15 | `https://raw.githubusercontent.com/dalazhi/v2ray/100d1564d0474a8f9c40f3e5af88c8edb0e83b0c/tj1.yaml` | 21 个 |
-| 16 | `https://raw.githubusercontent.com/mgit0001/test_clash/23ec5b6645df8b6c76dc46b053f870b77d8801fe/gs.yaml` | 20 个 |
-| 17 | `https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/2a654dc7a7a0990133b1e7f8626f265634691227/Archive/clash/GreenFish.yaml` | 20 个 |
-| 18 | `https://raw.githubusercontent.com/yscr3236/dinye/3131df6c1689936800cc6fb8e991dde837254c61/clash_meta_noni.yaml` | 20 个 |
-| 19 | `https://raw.githubusercontent.com/refined-fish/clash_rule_fish/9e95b777c1f02d317821fb10bab6dd836c8f8204/Backup/FISH-Template-redir-host.yaml` | 18 个 |
-| 20 | `https://raw.githubusercontent.com/Infatuation-Fei/rule/56800d115ad74e34a85cc1082dbb91e0952dcc66/Stash/%E9%85%8D%E7%BD%AE%E6%A8%A1%E6%9D%BF/Config%20for%20Stash.yaml` | 18 个 |
+| 15 | `https://raw.githubusercontent.com/dalazhi/v2ray/7e926d4d3dd9892162eee6ad6595f97a33420fcc/tj1.yaml` | 21 个 |
+| 16 | `https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/2a654dc7a7a0990133b1e7f8626f265634691227/Archive/clash/GreenFish.yaml` | 20 个 |
+| 17 | `https://raw.githubusercontent.com/yscr3236/dinye/3131df6c1689936800cc6fb8e991dde837254c61/clash_meta_noni.yaml` | 20 个 |
+| 18 | `https://raw.githubusercontent.com/mgit0001/test_clash/23ec5b6645df8b6c76dc46b053f870b77d8801fe/gs.yaml` | 20 个 |
+| 19 | `https://raw.githubusercontent.com/Infatuation-Fei/rule/56800d115ad74e34a85cc1082dbb91e0952dcc66/Stash/%E9%85%8D%E7%BD%AE%E6%A8%A1%E6%9D%BF/Config%20for%20Stash.yaml` | 18 个 |
+| 20 | `https://raw.githubusercontent.com/refined-fish/clash_rule_fish/9e95b777c1f02d317821fb10bab6dd836c8f8204/Backup/FISH-Template-redir-host.yaml` | 18 个 |
