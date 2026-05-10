@@ -1,6 +1,6 @@
 # 💎 Clash 高质量节点优选报告
 
-> **更新时间**: 2026-05-10 07:51:35 (UTC)
+> **更新时间**: 2026-05-10 12:46:02 (UTC)
 > **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5
 
 | 排名 | 订阅链接 | 节点估算 | 
@@ -23,5 +23,5 @@
 | 16 | `https://raw.githubusercontent.com/djangoHuu/rule/7f3b6c576b3ebb0f32c2efd71c3cd4b0fdfb1ccc/conf.yaml` | 26 个 |
 | 17 | `https://raw.githubusercontent.com/logicrw/clash-rules/98ff099a4e52a7ff2d66d8d9dc177b959e32a0af/config/clash-verge.yaml` | 24 个 |
 | 18 | `https://raw.githubusercontent.com/BPI-SINOVOIP/BPI-R3MINI-OPENWRT-V21.02.3/9bd78779f267a21c04c5bb4d16c32e83aae8d1d3/feeds/kenzo/luci-app-openclash/root/usr/share/openclash/res/default.yaml` | 22 个 |
-| 19 | `https://raw.githubusercontent.com/dalazhi/v2ray/4e9572c639c9bc17bb9bedf8327a7adbc7dbf1e7/tj1.yaml` | 21 个 |
+| 19 | `https://raw.githubusercontent.com/dalazhi/v2ray/e0f5cad44ee5f63d695a1dc5e30b8116b74be227/tj1.yaml` | 21 个 |
 | 20 | `https://raw.githubusercontent.com/Timor88/Config-files/dc176daaa526478eee0bd92937808652f3b63729/Clash.yaml` | 21 个 |
