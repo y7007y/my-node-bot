@@ -1,6 +1,6 @@
 # 💎 Clash 高质量节点优选报告
 
-> **更新时间**: 2026-06-03 16:08:48 (UTC)
+> **更新时间**: 2026-06-03 20:43:48 (UTC)
 > **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5
 
 | 排名 | 订阅链接 | 节点估算 | 
@@ -10,8 +10,8 @@
 | 3 | `https://raw.githubusercontent.com/SakuraPuare/Hive/7cd2c8d5d390586b1765e7216a79169663657b4a/management/registry/openapi/openapi.yaml` | 155 个 |
 | 4 | `https://raw.githubusercontent.com/jdegre/5GC_APIs/117674b61cd9ae4f68f5b5f91ec63686b8930cab/TS29503_Nudm_SDM.yaml` | 151 个 |
 | 5 | `https://raw.githubusercontent.com/convertor-gitops/convertor/af094c7048e5765e4748b4ef08b3249135053f83/crates/convertor/clash_profile.yaml` | 128 个 |
-| 6 | `https://raw.githubusercontent.com/sadietarasa/VOF-OvercomingGFW/8b5b6c3d638cc03d416e6dc37f3edb93426e107a/11.3.yaml` | 49 个 |
-| 7 | `https://raw.githubusercontent.com/sultan1sa/Script-conf/bc0766758ea78f36ae0998549fc2458976186fc1/Egern.yaml` | 49 个 |
+| 6 | `https://raw.githubusercontent.com/sultan1sa/Script-conf/bc0766758ea78f36ae0998549fc2458976186fc1/Egern.yaml` | 49 个 |
+| 7 | `https://raw.githubusercontent.com/sadietarasa/VOF-OvercomingGFW/8b5b6c3d638cc03d416e6dc37f3edb93426e107a/11.3.yaml` | 49 个 |
 | 8 | `https://raw.githubusercontent.com/wangbaoqiang-lixiaolu/substore/a1a745be043746e53585e32151b5ad91a712f349/grok2.yaml` | 39 个 |
 | 9 | `https://raw.githubusercontent.com/chunzhimoe/rule/42eb03ff5a7c9e4d72e440af01927e594410e145/clash-skk-optimized.yaml` | 37 个 |
 | 10 | `https://raw.githubusercontent.com/mianfengyang/cfvpn/e85b107265c5a5ada274e1c8be1f9281dd30a709/cf.yaml` | 36 个 |
@@ -23,5 +23,5 @@
 | 16 | `https://raw.githubusercontent.com/justdoiting/clash-rule/92943663fe32c550e6aedca4161d463bc8f7256a/111.yaml` | 25 个 |
 | 17 | `https://raw.githubusercontent.com/justdoiting/clash-rule/92943663fe32c550e6aedca4161d463bc8f7256a/day.yaml` | 24 个 |
 | 18 | `https://raw.githubusercontent.com/OpenWrt-Actions/OpenWrt-Packages/967386ceaef81e218679c9477455fddedbf84730/luci-app-openclash/root/usr/share/openclash/res/default.yaml` | 22 个 |
-| 19 | `https://raw.githubusercontent.com/dalazhi/v2ray/2802585a3749a93b65ad3225102c8b32d91aa1f1/tj1.yaml` | 21 个 |
-| 20 | `https://raw.githubusercontent.com/Timor88/Config-files/d0c1009c4ed0ba6a10dd9125109c7b2230b975fb/Clash.yaml` | 21 个 |
+| 19 | `https://raw.githubusercontent.com/Timor88/Config-files/d0c1009c4ed0ba6a10dd9125109c7b2230b975fb/Clash.yaml` | 21 个 |
+| 20 | `https://raw.githubusercontent.com/dalazhi/v2ray/5ff354ceec5fe544098e739389ac42d2d31b20ea/tj1.yaml` | 21 个 |
