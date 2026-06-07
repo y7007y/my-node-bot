@@ -1,6 +1,6 @@
 # 💎 Clash 高质量节点优选报告
 
-> **更新时间**: 2026-06-07 08:40:37 (UTC)
+> **更新时间**: 2026-06-07 13:13:30 (UTC)
 > **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5
 
 | 排名 | 订阅链接 | 节点估算 | 
@@ -16,8 +16,8 @@
 | 9 | `https://raw.githubusercontent.com/kenzok8/small-package/29972b0c1eb65869beb405b2f974c0afde9bb55d/luci-app-nekobox/root/etc/neko/config/mihomo.yaml` | 29 个 |
 | 10 | `https://raw.githubusercontent.com/LabNow-ai/lab-dev/e11a7b9aee787e9ae803577c5e31f6f9f3fd9990/docker_clash/work/clash/config.yaml` | 28 个 |
 | 11 | `https://raw.githubusercontent.com/ClashConnectRules/Self-Configuration/fb658cc85802427b749a8a7da52e7b36580d6f1d/Clash.yaml` | 27 个 |
-| 12 | `https://raw.githubusercontent.com/jnlaoshu/MySelf/2ca3385484244868989e128ec943494f0c320811/Clash/ClashVerge/Profile.yaml` | 26 个 |
-| 13 | `https://raw.githubusercontent.com/justdoiting/clash-rule/92943663fe32c550e6aedca4161d463bc8f7256a/000.yaml` | 26 个 |
+| 12 | `https://raw.githubusercontent.com/justdoiting/clash-rule/92943663fe32c550e6aedca4161d463bc8f7256a/000.yaml` | 26 个 |
+| 13 | `https://raw.githubusercontent.com/jnlaoshu/MySelf/2ca3385484244868989e128ec943494f0c320811/Clash/ClashVerge/Profile.yaml` | 26 个 |
 | 14 | `https://raw.githubusercontent.com/logicrw/clash-rules/201d5ad0046f76ff55ed6a84c2d6fca41acbcd37/config/clash-verge.yaml` | 24 个 |
 | 15 | `https://raw.githubusercontent.com/wangbaoqiang-lixiaolu/substore/a1a745be043746e53585e32151b5ad91a712f349/grok.yaml` | 22 个 |
 | 16 | `https://raw.githubusercontent.com/dalazhi/v2ray/3c3b7c39dc871ecfe6c534a3423a80254884c488/tj1.yaml` | 21 个 |
