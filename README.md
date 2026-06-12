@@ -1,6 +1,6 @@
 # 💎 Clash 高质量节点优选报告
 
-> **更新时间**: 2026-06-12 09:50:58 (UTC)
+> **更新时间**: 2026-06-12 14:27:01 (UTC)
 > **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5
 
 | 排名 | 订阅链接 | 节点估算 | 
@@ -19,9 +19,9 @@
 | 12 | `https://raw.githubusercontent.com/logicrw/clash-rules/4b6ac42e9c3465021b93de749085fb9748494829/config/clash-verge.yaml` | 24 个 |
 | 13 | `https://raw.githubusercontent.com/johopechh/Clash/d47777be099c17566703637ab9349440ef603ec0/Clash.yaml` | 22 个 |
 | 14 | `https://raw.githubusercontent.com/wangbaoqiang-lixiaolu/substore/a1a745be043746e53585e32151b5ad91a712f349/grok.yaml` | 22 个 |
-| 15 | `https://raw.githubusercontent.com/dalazhi/v2ray/d197997d1b7899082c4eefffbc6a473d3d7b43eb/tj1.yaml` | 21 个 |
+| 15 | `https://raw.githubusercontent.com/dalazhi/v2ray/1088df57a2da7cdfb8895316ce4c494fc27ad7f3/tj1.yaml` | 21 个 |
 | 16 | `https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/2a654dc7a7a0990133b1e7f8626f265634691227/Archive/clash/GreenFish.yaml` | 20 个 |
 | 17 | `https://raw.githubusercontent.com/abbasdvd3/clash/cba04d10f7c05cbbdb2ccd87ed90c0b41219c942/B.yaml` | 19 个 |
-| 18 | `https://raw.githubusercontent.com/changfengoss/pub/02400b3a7bc08d1ab406436d4a0160bc85d13038/data/2023_07_16/SNBLtJ.yaml` | 18 个 |
-| 19 | `https://raw.githubusercontent.com/changfengoss/pub/02400b3a7bc08d1ab406436d4a0160bc85d13038/data/2023_07_16/qUZRsi.yaml` | 18 个 |
+| 18 | `https://raw.githubusercontent.com/changfengoss/pub/02400b3a7bc08d1ab406436d4a0160bc85d13038/data/2023_07_16/qUZRsi.yaml` | 18 个 |
+| 19 | `https://raw.githubusercontent.com/changfengoss/pub/02400b3a7bc08d1ab406436d4a0160bc85d13038/data/2023_07_16/SNBLtJ.yaml` | 18 个 |
 | 20 | `https://raw.githubusercontent.com/changfengoss/pub/02400b3a7bc08d1ab406436d4a0160bc85d13038/data/2023_12_10/24GANF.yaml` | 15 个 |
