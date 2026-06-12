@@ -1,6 +1,6 @@
 # 💎 Clash 高质量节点优选报告
 
-> **更新时间**: 2026-06-12 14:27:01 (UTC)
+> **更新时间**: 2026-06-12 19:47:58 (UTC)
 > **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5
 
 | 排名 | 订阅链接 | 节点估算 | 
@@ -17,9 +17,9 @@
 | 10 | `https://raw.githubusercontent.com/GGforceP/PersonalClashRuleSet/9109dc89756cfd6bcbf497951f28f2d6bb9f85f9/rules.yaml` | 29 个 |
 | 11 | `https://raw.githubusercontent.com/ClashConnectRules/Self-Configuration/fb658cc85802427b749a8a7da52e7b36580d6f1d/Clash.yaml` | 27 个 |
 | 12 | `https://raw.githubusercontent.com/logicrw/clash-rules/4b6ac42e9c3465021b93de749085fb9748494829/config/clash-verge.yaml` | 24 个 |
-| 13 | `https://raw.githubusercontent.com/johopechh/Clash/d47777be099c17566703637ab9349440ef603ec0/Clash.yaml` | 22 个 |
-| 14 | `https://raw.githubusercontent.com/wangbaoqiang-lixiaolu/substore/a1a745be043746e53585e32151b5ad91a712f349/grok.yaml` | 22 个 |
-| 15 | `https://raw.githubusercontent.com/dalazhi/v2ray/1088df57a2da7cdfb8895316ce4c494fc27ad7f3/tj1.yaml` | 21 个 |
+| 13 | `https://raw.githubusercontent.com/wangbaoqiang-lixiaolu/substore/a1a745be043746e53585e32151b5ad91a712f349/grok.yaml` | 22 个 |
+| 14 | `https://raw.githubusercontent.com/johopechh/Clash/d47777be099c17566703637ab9349440ef603ec0/Clash.yaml` | 22 个 |
+| 15 | `https://raw.githubusercontent.com/dalazhi/v2ray/c2d26f9a02f06bfae63092699f9142352a2bcd30/tj1.yaml` | 21 个 |
 | 16 | `https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/2a654dc7a7a0990133b1e7f8626f265634691227/Archive/clash/GreenFish.yaml` | 20 个 |
 | 17 | `https://raw.githubusercontent.com/abbasdvd3/clash/cba04d10f7c05cbbdb2ccd87ed90c0b41219c942/B.yaml` | 19 个 |
 | 18 | `https://raw.githubusercontent.com/changfengoss/pub/02400b3a7bc08d1ab406436d4a0160bc85d13038/data/2023_07_16/qUZRsi.yaml` | 18 个 |
