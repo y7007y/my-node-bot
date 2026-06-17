@@ -1,6 +1,6 @@
 # 💎 Clash 高质量节点优选报告
 
-> **更新时间**: 2026-06-17 02:13:43 (UTC)
+> **更新时间**: 2026-06-17 10:20:39 (UTC)
 > **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5
 
 | 排名 | 订阅链接 | 节点估算 | 
@@ -8,10 +8,10 @@
 | 1 | `https://raw.githubusercontent.com/asgharkapk/Free-Clash-Meta/278cbc6d927e2ea1570f5503c090d6fba6a1cf23/Sublist/Simple/[190]___v2ray/itsyebekhe/PSG/subscriptions/clash/vmess_domain.yaml` | 169 个 |
 | 2 | `https://raw.githubusercontent.com/xzqcsa/ysc/19af99ad759d61eb9692ee99f2e0440c11cf45a5/DyJd.yaml` | 156 个 |
 | 3 | `https://raw.githubusercontent.com/jdegre/5GC_APIs/117674b61cd9ae4f68f5b5f91ec63686b8930cab/TS29503_Nudm_SDM.yaml` | 151 个 |
-| 4 | `https://raw.githubusercontent.com/hazelcast/hazelcast/6e3a2d5d5021a14e6dc490e02a5426392ab4631f/hazelcast/src/main/resources/hazelcast-full-example.yaml` | 130 个 |
+| 4 | `https://raw.githubusercontent.com/hazelcast/hazelcast/cc9d212cac01659cc5f0645988ca4061cbf76d33/hazelcast/src/main/resources/hazelcast-full-example.yaml` | 130 个 |
 | 5 | `https://raw.githubusercontent.com/vxiaov/free_proxy_ss/b0ead74ad5d1a47575bb5c06ada761437960ffc0/config.yaml` | 111 个 |
-| 6 | `https://raw.githubusercontent.com/sultan1sa/Script-conf/bc0766758ea78f36ae0998549fc2458976186fc1/Egern.yaml` | 49 个 |
-| 7 | `https://raw.githubusercontent.com/sadietarasa/VOF-OvercomingGFW/8b5b6c3d638cc03d416e6dc37f3edb93426e107a/11.3.yaml` | 49 个 |
+| 6 | `https://raw.githubusercontent.com/sadietarasa/VOF-OvercomingGFW/8b5b6c3d638cc03d416e6dc37f3edb93426e107a/11.3.yaml` | 49 个 |
+| 7 | `https://raw.githubusercontent.com/sultan1sa/Script-conf/bc0766758ea78f36ae0998549fc2458976186fc1/Egern.yaml` | 49 个 |
 | 8 | `https://raw.githubusercontent.com/FlowerRealm/Vea/f93c82892dec2ce65a0337aca3b7144a299ea1ae/docs/api/openapi.yaml` | 45 个 |
 | 9 | `https://raw.githubusercontent.com/Voya9e/Clash-meta-Config/f008f1f12a98834d5a19e55c3350ee736096b430/Config.yaml` | 39 个 |
 | 10 | `https://raw.githubusercontent.com/10ium/MihomoSaz/86c257c9ba0dd800ba52fceb051ca8830cf58e13/Sublist/firefoxmmx2.yaml` | 38 个 |
