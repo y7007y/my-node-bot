@@ -1,6 +1,6 @@
 # 💎 Clash 高质量节点优选报告
 
-> **更新时间**: 2026-06-19 19:20:47 (UTC)
+> **更新时间**: 2026-06-20 02:00:41 (UTC)
 > **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5
 
 | 排名 | 订阅链接 | 节点估算 | 
@@ -17,11 +17,11 @@
 | 10 | `https://raw.githubusercontent.com/ClashConnectRules/Self-Configuration/fb658cc85802427b749a8a7da52e7b36580d6f1d/Clash.yaml` | 27 个 |
 | 11 | `https://raw.githubusercontent.com/logicrw/clash-rules/4b6ac42e9c3465021b93de749085fb9748494829/config/clash-verge.yaml` | 24 个 |
 | 12 | `https://raw.githubusercontent.com/wangbaoqiang-lixiaolu/substore/a1a745be043746e53585e32151b5ad91a712f349/grok.yaml` | 22 个 |
-| 13 | `https://raw.githubusercontent.com/dalazhi/v2ray/d6ed9b126631691c7381eb56a00e44740c855bf5/tj1.yaml` | 21 个 |
-| 14 | `https://raw.githubusercontent.com/pyptom76/pyptom76/43ab493c82042bdb6edd9c6da793f1c2501d84be/subs.yaml` | 20 个 |
-| 15 | `https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/2a654dc7a7a0990133b1e7f8626f265634691227/Archive/clash/GreenFish.yaml` | 20 个 |
+| 13 | `https://raw.githubusercontent.com/dalazhi/v2ray/d130f68c4c34fc66736f4f6bd82e0c699b43dc0c/tj1.yaml` | 21 个 |
+| 14 | `https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/2a654dc7a7a0990133b1e7f8626f265634691227/Archive/clash/GreenFish.yaml` | 20 个 |
+| 15 | `https://raw.githubusercontent.com/pyptom76/pyptom76/43ab493c82042bdb6edd9c6da793f1c2501d84be/subs.yaml` | 20 个 |
 | 16 | `https://raw.githubusercontent.com/justdoiting/clash-rule/8bcd937b46495424e39a35d827e079081e60f665/-X-.yaml` | 19 个 |
 | 17 | `https://raw.githubusercontent.com/umarcheh001/Xkeen-UI/3d4901b5ed3224203252adf51eea97addd62f5b4/xkeen-ui/opt/etc/mihomo/templates/template.yaml` | 17 个 |
 | 18 | `https://raw.githubusercontent.com/kszym2002/Merlin_SS/6db4a463e6328067e03e9cc9ccd018506b824a32/game.yaml` | 16 个 |
 | 19 | `https://raw.githubusercontent.com/changfengoss/pub/02400b3a7bc08d1ab406436d4a0160bc85d13038/data/2023_12_11/3t55Yt.yaml` | 15 个 |
-| 20 | `https://raw.githubusercontent.com/ccpthisbigdog/freedomchina/8df2ca100bcb2095ecb0fcfe760dd6e68e625652/clab.yaml` | 13 个 |
+| 20 | `https://raw.githubusercontent.com/chengkongyiban/stash/cbb4b6eeb574e49f989c00f49825f43baf3aebfa/Stash.yaml` | 13 个 |
