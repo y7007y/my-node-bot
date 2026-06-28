@@ -1,6 +1,6 @@
 # 💎 Clash 高质量节点优选报告
 
-> **更新时间**: 2026-06-28 13:07:07 (UTC)
+> **更新时间**: 2026-06-28 18:58:06 (UTC)
 > **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5
 
 | 排名 | 订阅链接 | 节点估算 | 
@@ -17,10 +17,10 @@
 | 10 | `https://raw.githubusercontent.com/flystaros/ClashKit/367840f847012e8c9d88eb82cacf5a7273afd096/qianli.yaml` | 49 个 |
 | 11 | `https://raw.githubusercontent.com/wangbaoqiang-lixiaolu/substore/a1a745be043746e53585e32151b5ad91a712f349/free.yaml` | 47 个 |
 | 12 | `https://raw.githubusercontent.com/FlowerRealm/Vea/f93c82892dec2ce65a0337aca3b7144a299ea1ae/docs/api/openapi.yaml` | 45 个 |
-| 13 | `https://raw.githubusercontent.com/tepo18/online-sshmax98/b1a39ca156afb1c8b7cadbf1c43071eadac0c2a0/prox&.yaml` | 40 个 |
+| 13 | `https://raw.githubusercontent.com/tepo18/online-sshmax98/9ba9b2f970d43fc910bbf8b1f92a9631ca0860bc/prox&.yaml` | 40 个 |
 | 14 | `https://raw.githubusercontent.com/chunzhimoe/rule/42eb03ff5a7c9e4d72e440af01927e594410e145/clash-skk-optimized.yaml` | 37 个 |
-| 15 | `https://raw.githubusercontent.com/ChiaoYenta/mihomo_yamls/5ab3aec906cde9197cffb2d4edc4100daeff71f0/General_Config/ClashConnectRules/Clash.yaml` | 27 个 |
-| 16 | `https://raw.githubusercontent.com/ClashConnectRules/Self-Configuration/fb658cc85802427b749a8a7da52e7b36580d6f1d/Clash.yaml` | 27 个 |
+| 15 | `https://raw.githubusercontent.com/ClashConnectRules/Self-Configuration/fb658cc85802427b749a8a7da52e7b36580d6f1d/Clash.yaml` | 27 个 |
+| 16 | `https://raw.githubusercontent.com/ChiaoYenta/mihomo_yamls/5ab3aec906cde9197cffb2d4edc4100daeff71f0/General_Config/ClashConnectRules/Clash.yaml` | 27 个 |
 | 17 | `https://raw.githubusercontent.com/justdoiting/clash-rule/8bcd937b46495424e39a35d827e079081e60f665/111.yaml` | 25 个 |
 | 18 | `https://raw.githubusercontent.com/logicrw/clash-rules/4b6ac42e9c3465021b93de749085fb9748494829/config/clash-verge.yaml` | 24 个 |
 | 19 | `https://raw.githubusercontent.com/wangbaoqiang-lixiaolu/substore/a1a745be043746e53585e32151b5ad91a712f349/grok.yaml` | 22 个 |
