@@ -1,6 +1,6 @@
 # 💎 Clash 高质量节点优选报告
 
-> **更新时间**: 2026-07-05 01:42:45 (UTC)
+> **更新时间**: 2026-07-05 08:35:07 (UTC)
 > **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5
 
 | 排名 | 订阅链接 | 节点估算 | 
@@ -20,8 +20,8 @@
 | 13 | `https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/2a654dc7a7a0990133b1e7f8626f265634691227/Archive/clash/GreenFish.yaml` | 20 个 |
 | 14 | `https://raw.githubusercontent.com/abbasdvd3/clash/876214827c5f25b86100fb8fa5e10d005e0ce900/B.yaml` | 19 个 |
 | 15 | `https://raw.githubusercontent.com/malikshi/open_clash/5c0143e16b2a2627d18594d21b016fe141e9bb39/main.yaml` | 19 个 |
-| 16 | `https://raw.githubusercontent.com/vxiaov/Koolshare-Clash-openwrt-amd64/18178d5d5c13b3b96cf8ec7eefbb37ce9d1c1966/koolclash/koolclash/config/default_clash.yaml` | 14 个 |
-| 17 | `https://raw.githubusercontent.com/imoexin/static/a1fc478ada5034ed97497a46c3c942f708d756b4/clash.yaml` | 14 个 |
-| 18 | `https://raw.githubusercontent.com/ccpthisbigdog/freedomchina/8df2ca100bcb2095ecb0fcfe760dd6e68e625652/clab.yaml` | 13 个 |
-| 19 | `https://raw.githubusercontent.com/gh-liu/dotfiles/e51948f906b7ee1549b5a47a6a779ee6ae96813a/run/clash.yaml` | 13 个 |
-| 20 | `https://raw.githubusercontent.com/cmontage/proxyrules-cm/37cf8099ac3bd1af1539637069a62c46aeb9bb5e/clash.yaml` | 12 个 |
+| 16 | `https://raw.githubusercontent.com/imoexin/static/a1fc478ada5034ed97497a46c3c942f708d756b4/clash.yaml` | 14 个 |
+| 17 | `https://raw.githubusercontent.com/ccpthisbigdog/freedomchina/8df2ca100bcb2095ecb0fcfe760dd6e68e625652/clab.yaml` | 13 个 |
+| 18 | `https://raw.githubusercontent.com/gh-liu/dotfiles/d79ae2fb6a03abeb64f1cdf9f22de05d8f2770f5/run/clash.yaml` | 13 个 |
+| 19 | `https://raw.githubusercontent.com/Barabama/FreeNodes/9a9d3e73d66cdd1bcde3cd5a23bdaaed04e9c670/config.yaml` | 12 个 |
+| 20 | `https://raw.githubusercontent.com/cmontage/proxyrules-cm/ba365099d10ea2799466eee59f0b8a55f4aa803c/clash.yaml` | 12 个 |
