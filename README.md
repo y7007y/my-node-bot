@@ -1,27 +1,27 @@
 # 💎 Clash 高质量节点优选报告
 
-> **更新时间**: 2026-07-06 09:48:43 (UTC)
+> **更新时间**: 2026-07-06 14:49:33 (UTC)
 > **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5
 
 | 排名 | 订阅链接 | 节点估算 | 
 | :--- | :--- | :--- | 
-| 1 | `https://raw.githubusercontent.com/hazelcast/hazelcast/2d1e1f7aae7036f1848012bd286b40718a7026d3/hazelcast/src/main/resources/hazelcast-full-example.yaml` | 130 个 |
-| 2 | `https://raw.githubusercontent.com/open5gs/open5gs/fdea4cc181fe4af7630584db01acff3ebf18cd95/lib/sbi/support/r17-20230301-openapitools-6.4.0/modified/TS29503_Nudm_SDM.yaml` | 129 个 |
+| 1 | `https://raw.githubusercontent.com/ReaJason/Clash-Butler/97d29b275c573e5ef5ac8149bad2d382e013fcc5/clash.yaml` | 188 个 |
+| 2 | `https://raw.githubusercontent.com/jdegre/5GC_APIs/117674b61cd9ae4f68f5b5f91ec63686b8930cab/TS29503_Nudm_SDM.yaml` | 151 个 |
 | 3 | `https://raw.githubusercontent.com/convertor-gitops/convertor/df72a06aff96f7a99ed9f99f14bce010cb3fc5c7/crates/convertor/clash_profile.yaml` | 128 个 |
-| 4 | `https://raw.githubusercontent.com/gctziavas/NWDAF/d14c36d4d8b5f21767161209fcc96f00d9539f3f/Notes/Needed_Yaml_Files/TS29503_Nudm_SDM.yaml` | 117 个 |
-| 5 | `https://raw.githubusercontent.com/nextransit/CLIProxyAPI/c4d81325dc707c4eb4787d80cf25d2915e26a13a/clash.yaml` | 97 个 |
+| 4 | `https://raw.githubusercontent.com/vxiaov/free_proxy_ss/b0ead74ad5d1a47575bb5c06ada761437960ffc0/config.yaml` | 111 个 |
+| 5 | `https://raw.githubusercontent.com/dalazhi/v2ray/23c88a3a8ba60b2105fcec3f8e2f0486a1af7ce0/nodes.yaml` | 75 个 |
 | 6 | `https://raw.githubusercontent.com/FlowerRealm/Vea/f93c82892dec2ce65a0337aca3b7144a299ea1ae/docs/api/openapi.yaml` | 45 个 |
-| 7 | `https://raw.githubusercontent.com/LabNow-ai/lab-dev/144634d887c27f3706e5cd392c63a9842b648145/docker_clash/work/clash/config.yaml` | 28 个 |
-| 8 | `https://raw.githubusercontent.com/deideirui/github-trending-crawler/7c7ffa8b2b43f2bb72ab7d78cf83809022d7b2e6/db/2024-02-23-Python.yaml` | 25 个 |
-| 9 | `https://raw.githubusercontent.com/deideirui/github-trending-crawler/7c7ffa8b2b43f2bb72ab7d78cf83809022d7b2e6/db/2024-05-14-Python.yaml` | 25 个 |
-| 10 | `https://raw.githubusercontent.com/deideirui/github-trending-crawler/7c7ffa8b2b43f2bb72ab7d78cf83809022d7b2e6/db/2024-02-29-Trending.yaml` | 25 个 |
-| 11 | `https://raw.githubusercontent.com/deideirui/github-trending-crawler/7c7ffa8b2b43f2bb72ab7d78cf83809022d7b2e6/db/2024-02-27-Python.yaml` | 25 个 |
-| 12 | `https://raw.githubusercontent.com/logicrw/clash-rules/4b6ac42e9c3465021b93de749085fb9748494829/config/clash-verge.yaml` | 24 个 |
-| 13 | `https://raw.githubusercontent.com/changfengoss/pub/02400b3a7bc08d1ab406436d4a0160bc85d13038/data/2023_12_11/vgPPbL.yaml` | 15 个 |
-| 14 | `https://raw.githubusercontent.com/smartbit4all/platform/4d40733b004fc735efcb512af97dcb9fa3c6909f/api-domain/src/main/resources/descriptors/invocation-api.yaml` | 14 个 |
-| 15 | `https://raw.githubusercontent.com/vxiaov/Koolshare-Clash-openwrt-amd64/18178d5d5c13b3b96cf8ec7eefbb37ce9d1c1966/koolclash/koolclash/config/default_clash.yaml` | 14 个 |
-| 16 | `https://raw.githubusercontent.com/Barabama/FreeNodes/9a9d3e73d66cdd1bcde3cd5a23bdaaed04e9c670/config.yaml` | 12 个 |
-| 17 | `https://raw.githubusercontent.com/fun90/AirOpsCat/bc1b4ba83e50344dd9bfc54fbdea440ea057f653/src/main/resources/config/subscription/clash-mi.yaml` | 9 个 |
-| 18 | `https://raw.githubusercontent.com/afwfv/DD-AD/8564f80644f0896c57e1dc67d9cfa0102fe5987a/config/application-example.yaml` | 8 个 |
-| 19 | `https://raw.githubusercontent.com/ClashParserLearning/CFW-parser-converter-scripts/6d8c122d6be550e037f71eb99d794c6564eb2518/src/from-clash-V1.0.0-to-V1.7.0/yaml/converter_with_rules.yaml` | 8 个 |
-| 20 | `https://raw.githubusercontent.com/EkkoG/openwrt-modules/a3a88a1a9fa6fdbd595fa1e8cf9273f014716d3e/openclash/module.yaml` | 5 个 |
+| 7 | `https://raw.githubusercontent.com/wenbingkun/proxy-config/46277f54d271c151aabb69444dd0ed3a48644c9d/clash/config.yaml` | 40 个 |
+| 8 | `https://raw.githubusercontent.com/huLter/Mihomo/9b9dcde6e83d06d7860cab0e4eed6a66f3027273/config.yaml` | 36 个 |
+| 9 | `https://raw.githubusercontent.com/lvbibir/clash/38da7d8daba7b718ce23c4c2d3c75fd96820760e/mihomo.yaml` | 31 个 |
+| 10 | `https://raw.githubusercontent.com/tonmy007/IPTV/7ccf0fbedd00ab4e283fac430e80f4746cd00a8c/config.yaml` | 28 个 |
+| 11 | `https://raw.githubusercontent.com/deideirui/github-trending-crawler/63646ec58a1424b0bfe83c68aa3a6b0d50b5dfcb/db/2024-02-29-Trending.yaml` | 25 个 |
+| 12 | `https://raw.githubusercontent.com/deideirui/github-trending-crawler/63646ec58a1424b0bfe83c68aa3a6b0d50b5dfcb/db/2024-05-13-Python.yaml` | 25 个 |
+| 13 | `https://raw.githubusercontent.com/deideirui/github-trending-crawler/63646ec58a1424b0bfe83c68aa3a6b0d50b5dfcb/db/2024-02-25-Trending.yaml` | 25 个 |
+| 14 | `https://raw.githubusercontent.com/deideirui/github-trending-crawler/63646ec58a1424b0bfe83c68aa3a6b0d50b5dfcb/db/2024-02-27-Python.yaml` | 25 个 |
+| 15 | `https://raw.githubusercontent.com/abse4411/projz_renpy_translation/a018cae1c161cb60ff9297dc98026f4a4efc5483/config.yaml` | 23 个 |
+| 16 | `https://raw.githubusercontent.com/10ium/MihomoSazLite/1b4d15cdec513ded6465ba148d3333fdf6d9c9b4/Sublist/firefoxmmx2.yaml` | 22 个 |
+| 17 | `https://raw.githubusercontent.com/qljsyph/ATAsst/7644a08d96f758db6d0d2916be795338d9501a68/config.yaml` | 21 个 |
+| 18 | `https://raw.githubusercontent.com/dalazhi/v2ray/23c88a3a8ba60b2105fcec3f8e2f0486a1af7ce0/tj1.yaml` | 21 个 |
+| 19 | `https://raw.githubusercontent.com/abbasdvd3/clash/876214827c5f25b86100fb8fa5e10d005e0ce900/B.yaml` | 19 个 |
+| 20 | `https://raw.githubusercontent.com/malikshi/open_clash/5c0143e16b2a2627d18594d21b016fe141e9bb39/main.yaml` | 19 个 |
