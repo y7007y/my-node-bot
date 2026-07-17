@@ -1,6 +1,6 @@
 # 💎 Clash 高质量节点优选报告
 
-> **更新时间**: 2026-07-16 18:51:22 (UTC)
+> **更新时间**: 2026-07-17 01:20:01 (UTC)
 > **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5
 
 | 排名 | 订阅链接 | 节点估算 | 
@@ -9,13 +9,13 @@
 | 2 | `https://raw.githubusercontent.com/xzqcsa/ysc/19af99ad759d61eb9692ee99f2e0440c11cf45a5/DyJd.yaml` | 156 个 |
 | 3 | `https://raw.githubusercontent.com/open5gs/open5gs/e2aeae26d7e4c447d77539bdff88b67638c9d46b/lib/sbi/support/r17-20230301-openapitools-6.4.0/modified/TS29503_Nudm_SDM.yaml` | 129 个 |
 | 4 | `https://raw.githubusercontent.com/vxiaov/free_proxy_ss/b0ead74ad5d1a47575bb5c06ada761437960ffc0/config.yaml` | 111 个 |
-| 5 | `https://raw.githubusercontent.com/dalazhi/v2ray/e7a2e862c1bc7aba48dcc5d3aa23a665c675cf6e/nodes.yaml` | 75 个 |
-| 6 | `https://raw.githubusercontent.com/sultan1sa/Script-conf/bc0766758ea78f36ae0998549fc2458976186fc1/Egern.yaml` | 49 个 |
-| 7 | `https://raw.githubusercontent.com/sadietarasa/VOF-OvercomingGFW/8b5b6c3d638cc03d416e6dc37f3edb93426e107a/11.3.yaml` | 49 个 |
+| 5 | `https://raw.githubusercontent.com/dalazhi/v2ray/61960e5e27580619950e44bbb58615e05304770b/nodes.yaml` | 75 个 |
+| 6 | `https://raw.githubusercontent.com/sadietarasa/VOF-OvercomingGFW/8b5b6c3d638cc03d416e6dc37f3edb93426e107a/11.3.yaml` | 49 个 |
+| 7 | `https://raw.githubusercontent.com/sultan1sa/Script-conf/bc0766758ea78f36ae0998549fc2458976186fc1/Egern.yaml` | 49 个 |
 | 8 | `https://raw.githubusercontent.com/careysucci/build_openwrt/6ee3cbe06fbbd1a02a20ab589ebccf6be453cf2c/clash-all-noicon-clash.yaml` | 44 个 |
-| 9 | `https://raw.githubusercontent.com/tepo18/online-sshmax98/818c156d5a2ae5865ecbcc8c728a3c221413b61e/prox&.yaml` | 40 个 |
-| 10 | `https://raw.githubusercontent.com/wangbaoqiang-lixiaolu/substore/a1a745be043746e53585e32151b5ad91a712f349/grok2.yaml` | 39 个 |
-| 11 | `https://raw.githubusercontent.com/echs-top/proxy/eed45405c6e4bd91417261256d7c58cd6a492136/mihomo.yaml` | 39 个 |
+| 9 | `https://raw.githubusercontent.com/tepo18/online-sshmax98/9f2b85e8ef70bfe306099047caca86263c01e2a3/prox&.yaml` | 40 个 |
+| 10 | `https://raw.githubusercontent.com/echs-top/proxy/279e014b095822cce84b67de9539ca135ef40cae/mihomo.yaml` | 39 个 |
+| 11 | `https://raw.githubusercontent.com/wangbaoqiang-lixiaolu/substore/a1a745be043746e53585e32151b5ad91a712f349/grok2.yaml` | 39 个 |
 | 12 | `https://raw.githubusercontent.com/feixiang-1/feixiang-1/013e8955c9da5fa031bd29681d916ee07f5cbbc5/clash/clash_meta_mihomo.yaml` | 28 个 |
 | 13 | `https://raw.githubusercontent.com/ClashConnectRules/Self-Configuration/fb658cc85802427b749a8a7da52e7b36580d6f1d/Clash.yaml` | 27 个 |
 | 14 | `https://raw.githubusercontent.com/HenryChiao/MIHOMO_YAMLS/6919760c8054448bc216a9bbaf88d227fd9c095f/THEYAMLS/General_Config/ClashConnectRules/Clash.yaml` | 27 个 |
