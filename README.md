@@ -1,6 +1,6 @@
 # 💎 Clash 高质量节点优选报告
 
-> **更新时间**: 2026-07-27 09:20:03 (UTC)
+> **更新时间**: 2026-07-27 14:04:05 (UTC)
 > **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5
 
 | 排名 | 订阅链接 | 节点估算 | 
@@ -14,7 +14,7 @@
 | 7 | `https://raw.githubusercontent.com/hzcsure/hzcsure/786e0cb067ac8db456361151fa560ab0c8a37c86/Y.yaml` | 81 个 |
 | 8 | `https://raw.githubusercontent.com/lon91ong/python/1c24eac406235e7a6fad15032647c2ae76d62cd8/sscla.yaml` | 70 个 |
 | 9 | `https://raw.githubusercontent.com/sadietarasa/VOF-OvercomingGFW/8b5b6c3d638cc03d416e6dc37f3edb93426e107a/11.3.yaml` | 49 个 |
-| 10 | `https://raw.githubusercontent.com/tepo18/online-sshmax98/4192b19c8cba2f706afb95d316bef952959f53be/prox&.yaml` | 40 个 |
+| 10 | `https://raw.githubusercontent.com/tepo18/online-sshmax98/97b9f5f9449b660e7ab6a1633dd686461473c3f8/prox&.yaml` | 40 个 |
 | 11 | `https://raw.githubusercontent.com/wangbaoqiang-lixiaolu/substore/a1a745be043746e53585e32151b5ad91a712f349/grok2.yaml` | 39 个 |
 | 12 | `https://raw.githubusercontent.com/echs-top/proxy/c09ef6a3d8c20853f3ef7d943a5fc33efb2df935/mihomo.yaml` | 39 个 |
 | 13 | `https://raw.githubusercontent.com/ClashConnectRules/Self-Configuration/fb658cc85802427b749a8a7da52e7b36580d6f1d/Clash.yaml` | 27 个 |
