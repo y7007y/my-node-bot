@@ -1,6 +1,6 @@
 # 💎 Clash 高质量节点优选报告
 
-> **更新时间**: 2026-07-29 08:13:28 (UTC)
+> **更新时间**: 2026-07-29 13:29:52 (UTC)
 > **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5
 
 | 排名 | 订阅链接 | 节点估算 | 
@@ -8,7 +8,7 @@
 | 1 | `https://raw.githubusercontent.com/ReaJason/Clash-Butler/97d29b275c573e5ef5ac8149bad2d382e013fcc5/clash.yaml` | 188 个 |
 | 2 | `https://raw.githubusercontent.com/asgharkapk/Free-Clash-Meta/278cbc6d927e2ea1570f5503c090d6fba6a1cf23/Sublist/Simple/[393]___clash/itsyebekhe/PSG/subscriptions/clash/mix.yaml` | 169 个 |
 | 3 | `https://raw.githubusercontent.com/asgharkapk/Free-Clash-Meta/278cbc6d927e2ea1570f5503c090d6fba6a1cf23/Sublist/Simple/[126]___ss/itsyebekhe/PSG/subscriptions/clash/mix.yaml` | 169 个 |
-| 4 | `https://raw.githubusercontent.com/amir-reza-bijandi/v2ray-configs/f76283d84140bf923c511ddd8dc851097c9ad489/clash.yaml` | 150 个 |
+| 4 | `https://raw.githubusercontent.com/amir-reza-bijandi/v2ray-configs/87874afabb7e65c75d994e134c86040445b75736/clash.yaml` | 150 个 |
 | 5 | `https://raw.githubusercontent.com/convertor-gitops/convertor/df72a06aff96f7a99ed9f99f14bce010cb3fc5c7/crates/convertor/clash_profile.yaml` | 128 个 |
 | 6 | `https://raw.githubusercontent.com/vxiaov/free_proxy_ss/b0ead74ad5d1a47575bb5c06ada761437960ffc0/config.yaml` | 111 个 |
 | 7 | `https://raw.githubusercontent.com/dalazhi/v2ray/9161038504c04bc766f957851cbbacb6e3779643/nodes.yaml` | 75 个 |
