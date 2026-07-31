@@ -1,13 +1,13 @@
 # 💎 Clash 高质量节点优选报告
 
-> **更新时间**: 2026-07-31 08:26:12 (UTC)
+> **更新时间**: 2026-07-31 13:23:42 (UTC)
 > **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5
 
 | 排名 | 订阅链接 | 节点估算 | 
 | :--- | :--- | :--- | 
 | 1 | `https://raw.githubusercontent.com/ReaJason/Clash-Butler/97d29b275c573e5ef5ac8149bad2d382e013fcc5/clash.yaml` | 188 个 |
 | 2 | `https://raw.githubusercontent.com/asgharkapk/Free-Clash-Meta/278cbc6d927e2ea1570f5503c090d6fba6a1cf23/Sublist/Simple/[126]___ss/itsyebekhe/PSG/subscriptions/clash/mix.yaml` | 169 个 |
-| 3 | `https://raw.githubusercontent.com/amir-reza-bijandi/v2ray-configs/26c01a5d5faa8273907f41c562b92d69bbf50217/clash.yaml` | 150 个 |
+| 3 | `https://raw.githubusercontent.com/amir-reza-bijandi/v2ray-configs/54896139107e81f08edb62a5bdda3f8d51b45313/clash.yaml` | 150 个 |
 | 4 | `https://raw.githubusercontent.com/convertor-gitops/convertor/df72a06aff96f7a99ed9f99f14bce010cb3fc5c7/crates/convertor/clash_profile.yaml` | 128 个 |
 | 5 | `https://raw.githubusercontent.com/vxiaov/free_proxy_ss/b0ead74ad5d1a47575bb5c06ada761437960ffc0/config.yaml` | 111 个 |
 | 6 | `https://raw.githubusercontent.com/dalazhi/v2ray/279f179abf309f4ea9a0c8838fd126349dcc08d6/nodes.yaml` | 75 个 |
@@ -17,8 +17,8 @@
 | 10 | `https://raw.githubusercontent.com/lvbibir/clash/693e39ff5f35c90277b832ab839a46f66464508f/mihomo.yaml` | 31 个 |
 | 11 | `https://raw.githubusercontent.com/feixiang-1/feixiang-1/013e8955c9da5fa031bd29681d916ee07f5cbbc5/clash/clash_meta_mihomo.yaml` | 28 个 |
 | 12 | `https://raw.githubusercontent.com/ClashConnectRules/Self-Configuration/fb658cc85802427b749a8a7da52e7b36580d6f1d/Clash.yaml` | 27 个 |
-| 13 | `https://raw.githubusercontent.com/john-walks-slow/universal-clash-script/d3d1692a7dab29b63745b36a1f5c528283c63f71/universal_clash_profile.yaml` | 26 个 |
-| 14 | `https://raw.githubusercontent.com/jnlaoshu/MySelf/8c55206f283baccd8ac47d0ac0503effe7fd1c1b/Clash/ClashVerge/Profile.yaml` | 26 个 |
+| 13 | `https://raw.githubusercontent.com/jnlaoshu/MySelf/9751c0776dbe2b1613fcea6bab34a655e54f5e12/Clash/ClashVerge/Profile.yaml` | 26 个 |
+| 14 | `https://raw.githubusercontent.com/john-walks-slow/universal-clash-script/d3d1692a7dab29b63745b36a1f5c528283c63f71/universal_clash_profile.yaml` | 26 个 |
 | 15 | `https://raw.githubusercontent.com/logicrw/clash-rules/4b6ac42e9c3465021b93de749085fb9748494829/config/clash-verge.yaml` | 24 个 |
 | 16 | `https://raw.githubusercontent.com/abse4411/projz_renpy_translation/a018cae1c161cb60ff9297dc98026f4a4efc5483/config.yaml` | 23 个 |
 | 17 | `https://raw.githubusercontent.com/dalazhi/v2ray/279f179abf309f4ea9a0c8838fd126349dcc08d6/tj1.yaml` | 21 个 |
