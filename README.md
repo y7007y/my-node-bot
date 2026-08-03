@@ -1,15 +1,15 @@
 # 💎 Clash 高质量节点优选报告
 
-> **更新时间**: 2026-08-03 01:22:53 (UTC)
+> **更新时间**: 2026-08-03 08:54:30 (UTC)
 > **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5
 
 | 排名 | 订阅链接 | 节点估算 | 
 | :--- | :--- | :--- | 
 | 1 | `https://raw.githubusercontent.com/ReaJason/Clash-Butler/97d29b275c573e5ef5ac8149bad2d382e013fcc5/clash.yaml` | 188 个 |
-| 2 | `https://raw.githubusercontent.com/asgharkapk/Free-Clash-Meta/278cbc6d927e2ea1570f5503c090d6fba6a1cf23/Sublist/Simple/[126]___ss/itsyebekhe/PSG/subscriptions/clash/ss.yaml` | 169 个 |
-| 3 | `https://raw.githubusercontent.com/asgharkapk/Free-Clash-Meta/278cbc6d927e2ea1570f5503c090d6fba6a1cf23/Sublist/Simple/[126]___ss/itsyebekhe/PSG/subscriptions/clash/mix.yaml` | 169 个 |
+| 2 | `https://raw.githubusercontent.com/asgharkapk/Free-Clash-Meta/278cbc6d927e2ea1570f5503c090d6fba6a1cf23/Sublist/Simple/[126]___ss/itsyebekhe/PSG/subscriptions/clash/mix.yaml` | 169 个 |
+| 3 | `https://raw.githubusercontent.com/asgharkapk/Free-Clash-Meta/278cbc6d927e2ea1570f5503c090d6fba6a1cf23/Sublist/Simple/[126]___ss/itsyebekhe/PSG/subscriptions/clash/ss.yaml` | 169 个 |
 | 4 | `https://raw.githubusercontent.com/asgharkapk/Free-Clash-Meta/278cbc6d927e2ea1570f5503c090d6fba6a1cf23/Sublist/Simple/[489]___clash/10ium/HiN-VPN/subscription/base64/vless.yaml` | 169 个 |
-| 5 | `https://raw.githubusercontent.com/amir-reza-bijandi/v2ray-configs/b7153596f1c358bb9e94320315a0c8600eaeac6a/clash.yaml` | 150 个 |
+| 5 | `https://raw.githubusercontent.com/amir-reza-bijandi/v2ray-configs/fcfd839b1cc9cd61ad1f8a3379d71f0d292cb8be/clash.yaml` | 150 个 |
 | 6 | `https://raw.githubusercontent.com/convertor-gitops/convertor/df72a06aff96f7a99ed9f99f14bce010cb3fc5c7/crates/convertor/clash_profile.yaml` | 128 个 |
 | 7 | `https://raw.githubusercontent.com/vxiaov/free_proxy_ss/b0ead74ad5d1a47575bb5c06ada761437960ffc0/config.yaml` | 111 个 |
 | 8 | `https://raw.githubusercontent.com/dalazhi/v2ray/9183b87c13a34cd2a1d6697f0bb6ff51d0eefb9b/nodes.yaml` | 75 个 |
