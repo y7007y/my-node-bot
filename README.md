@@ -1,13 +1,13 @@
 # 💎 Clash 高质量节点优选报告
 
-> **更新时间**: 2026-08-10 07:02:08 (UTC)
+> **更新时间**: 2026-08-10 12:37:37 (UTC)
 > **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5
 
 | 排名 | 订阅链接 | 节点估算 | 
 | :--- | :--- | :--- | 
 | 1 | `https://raw.githubusercontent.com/ReaJason/Clash-Butler/97d29b275c573e5ef5ac8149bad2d382e013fcc5/clash.yaml` | 188 个 |
 | 2 | `https://raw.githubusercontent.com/asgharkapk/Free-Clash-Meta/278cbc6d927e2ea1570f5503c090d6fba6a1cf23/Sublist/Simple/[489]___clash/10ium/HiN-VPN/subscription/base64/vless.yaml` | 169 个 |
-| 3 | `https://raw.githubusercontent.com/amir-reza-bijandi/v2ray-configs/1928b5d5d49adf963054aa046257ab8155c1efc6/clash.yaml` | 150 个 |
+| 3 | `https://raw.githubusercontent.com/amir-reza-bijandi/v2ray-configs/ba948caf55ff0b2de61541db426485e411be6dae/clash.yaml` | 150 个 |
 | 4 | `https://raw.githubusercontent.com/convertor-gitops/convertor/be09aa09722ce82ff07335110a2e54385f8e0f3f/crates/convertor/clash_profile.yaml` | 128 个 |
 | 5 | `https://raw.githubusercontent.com/vxiaov/free_proxy_ss/b0ead74ad5d1a47575bb5c06ada761437960ffc0/config.yaml` | 111 个 |
 | 6 | `https://raw.githubusercontent.com/dalazhi/v2ray/ba0c3eb532599db315261175644d85ce6a3453ca/nodes.yaml` | 75 个 |
@@ -24,4 +24,4 @@
 | 17 | `https://raw.githubusercontent.com/dalazhi/v2ray/ba0c3eb532599db315261175644d85ce6a3453ca/tj1.yaml` | 21 个 |
 | 18 | `https://raw.githubusercontent.com/qljsyph/ATAsst/0337032523dd9ebc2e40e960956a96495766c54e/config.yaml` | 21 个 |
 | 19 | `https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/2a654dc7a7a0990133b1e7f8626f265634691227/Archive/clash/GreenFish.yaml` | 20 个 |
-| 20 | `https://raw.githubusercontent.com/malikshi/open_clash/5c0143e16b2a2627d18594d21b016fe141e9bb39/main.yaml` | 19 个 |
+| 20 | `https://raw.githubusercontent.com/abbasdvd3/clash/2d0d45dbb76febd2ba81b5f8f4102c09a89a0b2c/B.yaml` | 19 个 |
