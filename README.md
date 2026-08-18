@@ -1,6 +1,6 @@
 # 💎 Clash 高质量节点优选报告
 
-> **更新时间**: 2026-08-18 06:19:38 (UTC)
+> **更新时间**: 2026-08-18 12:17:56 (UTC)
 > **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5
 
 | 排名 | 订阅链接 | 节点估算 | 
@@ -9,8 +9,8 @@
 | 2 | `https://raw.githubusercontent.com/shidahuilang/SS-SSR-TG-iptables-bt/34e986e2487482d31134dffe5c79fd6874282f2a/meta.yaml` | 185 个 |
 | 3 | `https://raw.githubusercontent.com/asgharkapk/Free-Clash-Meta/278cbc6d927e2ea1570f5503c090d6fba6a1cf23/Sublist/Simple/[393]___clash/itsyebekhe/PSG/subscriptions/clash/mix.yaml` | 169 个 |
 | 4 | `https://raw.githubusercontent.com/asgharkapk/Free-Clash-Meta/278cbc6d927e2ea1570f5503c090d6fba6a1cf23/Sublist/Simple/[126]___ss/itsyebekhe/PSG/subscriptions/clash/mix.yaml` | 169 个 |
-| 5 | `https://raw.githubusercontent.com/amir-reza-bijandi/v2ray-configs/628d1fa9acaed70722c8d4be28586f6768f6c7ba/clash.yaml` | 150 个 |
-| 6 | `https://raw.githubusercontent.com/convertor-gitops/convertor/be09aa09722ce82ff07335110a2e54385f8e0f3f/crates/convertor/clash_profile.yaml` | 128 个 |
+| 5 | `https://raw.githubusercontent.com/amir-reza-bijandi/v2ray-configs/486579807598d1c8252cd02414a1432f29e267bd/clash.yaml` | 150 个 |
+| 6 | `https://raw.githubusercontent.com/convertor-gitops/convertor/f5ab0af8357a06a5cb4e4137d871dafd75c15918/crates/convertor/clash_profile.yaml` | 128 个 |
 | 7 | `https://raw.githubusercontent.com/vxiaov/free_proxy_ss/b0ead74ad5d1a47575bb5c06ada761437960ffc0/config.yaml` | 111 个 |
 | 8 | `https://raw.githubusercontent.com/dalazhi/v2ray/31c3b878f78628bb00b6b22ec8b04ecddf1d4db3/nodes.yaml` | 75 个 |
 | 9 | `https://raw.githubusercontent.com/TailendWong/nav/7df6563e8117706c9e10ff420838f66599f7cd36/shr.yaml` | 45 个 |
@@ -24,4 +24,4 @@
 | 17 | `https://raw.githubusercontent.com/dalazhi/v2ray/31c3b878f78628bb00b6b22ec8b04ecddf1d4db3/tj1.yaml` | 21 个 |
 | 18 | `https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/2a654dc7a7a0990133b1e7f8626f265634691227/Archive/clash/GreenFish.yaml` | 20 个 |
 | 19 | `https://raw.githubusercontent.com/yscr3236/dinye/3131df6c1689936800cc6fb8e991dde837254c61/clash_meta_noni.yaml` | 20 个 |
-| 20 | `https://raw.githubusercontent.com/abbasdvd3/clash/ec1da7588f31d4d1f39e1a19f797c7580ee69510/B.yaml` | 19 个 |
+| 20 | `https://raw.githubusercontent.com/malikshi/open_clash/5c0143e16b2a2627d18594d21b016fe141e9bb39/main.yaml` | 19 个 |
