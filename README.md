@@ -1,13 +1,13 @@
 # 💎 Clash 高质量节点优选报告
 
-> **更新时间**: 2026-08-27 05:16:24 (UTC)
+> **更新时间**: 2026-08-27 16:55:24 (UTC)
 > **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5
 
 | 排名 | 订阅链接 | 节点估算 | 
 | :--- | :--- | :--- | 
-| 1 | `https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/8d10bea17fb91be68c692c9a486107eb916b81cc/secure/clash.yaml` | 943 个 |
-| 2 | `https://raw.githubusercontent.com/ReaJason/Clash-Butler/97d29b275c573e5ef5ac8149bad2d382e013fcc5/clash.yaml` | 188 个 |
-| 3 | `https://raw.githubusercontent.com/amir-reza-bijandi/v2ray-configs/cb03e271a6537fe6fdebdab3f18f581eb8fa6f25/clash.yaml` | 150 个 |
+| 1 | `https://raw.githubusercontent.com/ReaJason/Clash-Butler/97d29b275c573e5ef5ac8149bad2d382e013fcc5/clash.yaml` | 188 个 |
+| 2 | `https://raw.githubusercontent.com/asgharkapk/Free-Clash-Meta/278cbc6d927e2ea1570f5503c090d6fba6a1cf23/Sublist/Simple/[126]___ss/itsyebekhe/PSG/subscriptions/clash/mix.yaml` | 169 个 |
+| 3 | `https://raw.githubusercontent.com/amir-reza-bijandi/v2ray-configs/9ec1dd2911f4d19e2acd88b72a2d0651706859ef/clash.yaml` | 150 个 |
 | 4 | `https://raw.githubusercontent.com/convertor-gitops/convertor/f5ab0af8357a06a5cb4e4137d871dafd75c15918/crates/convertor/clash_profile.yaml` | 128 个 |
 | 5 | `https://raw.githubusercontent.com/vxiaov/free_proxy_ss/b0ead74ad5d1a47575bb5c06ada761437960ffc0/config.yaml` | 111 个 |
 | 6 | `https://raw.githubusercontent.com/dalazhi/v2ray/e6bdf564b5e87cd92a720b7e43394cade939f690/nodes.yaml` | 75 个 |
@@ -20,8 +20,8 @@
 | 13 | `https://raw.githubusercontent.com/abse4411/projz_renpy_translation/a018cae1c161cb60ff9297dc98026f4a4efc5483/config.yaml` | 23 个 |
 | 14 | `https://raw.githubusercontent.com/qljsyph/ATAsst/0337032523dd9ebc2e40e960956a96495766c54e/config.yaml` | 21 个 |
 | 15 | `https://raw.githubusercontent.com/dalazhi/v2ray/e6bdf564b5e87cd92a720b7e43394cade939f690/tj1.yaml` | 21 个 |
-| 16 | `https://raw.githubusercontent.com/yscr3236/dinye/3131df6c1689936800cc6fb8e991dde837254c61/clash_meta_noni.yaml` | 20 个 |
-| 17 | `https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/2a654dc7a7a0990133b1e7f8626f265634691227/Archive/clash/GreenFish.yaml` | 20 个 |
-| 18 | `https://raw.githubusercontent.com/abbasdvd3/clash/465d2950d3ef4fc7537b357a28f2f2b277cffaf3/B.yaml` | 19 个 |
-| 19 | `https://raw.githubusercontent.com/malikshi/open_clash/5c0143e16b2a2627d18594d21b016fe141e9bb39/main.yaml` | 19 个 |
+| 16 | `https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/2a654dc7a7a0990133b1e7f8626f265634691227/Archive/clash/GreenFish.yaml` | 20 个 |
+| 17 | `https://raw.githubusercontent.com/yscr3236/dinye/3131df6c1689936800cc6fb8e991dde837254c61/clash_meta_noni.yaml` | 20 个 |
+| 18 | `https://raw.githubusercontent.com/malikshi/open_clash/5c0143e16b2a2627d18594d21b016fe141e9bb39/main.yaml` | 19 个 |
+| 19 | `https://raw.githubusercontent.com/abbasdvd3/clash/b6e69f05252bb2967dc155f4a4ad14be95dcd92b/B.yaml` | 19 个 |
 | 20 | `https://raw.githubusercontent.com/Boshugege/singbox-config-publisher/e4dad4c0505a9f69010c44429f53baf0f475ddd8/examples/subscriptions/clash.yaml` | 17 个 |
