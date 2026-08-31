@@ -1,27 +1,27 @@
 # 💎 Clash 高质量节点优选报告
 
-> **更新时间**: 2026-08-31 11:56:08 (UTC)
+> **更新时间**: 2026-08-31 18:23:53 (UTC)
 > **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5
 
 | 排名 | 订阅链接 | 节点估算 | 
 | :--- | :--- | :--- | 
-| 1 | `https://raw.githubusercontent.com/SakuraPuare/Hive/70511513698f21697ccdab5ec74c15fa169fafee/management/registry/openapi/openapi.yaml` | 177 个 |
-| 2 | `https://raw.githubusercontent.com/HenryChiao/MIHOMO_YAMLS/b21425281c93a2365b2fc6e7f4a97dcdcd102214/Overwrite/THENEWOPENCLASH/General_Config/Accademia/BlackList-01.yaml` | 145 个 |
-| 3 | `https://raw.githubusercontent.com/SakuraPuare/Hive/70511513698f21697ccdab5ec74c15fa169fafee/management/registry-ui/src/generated/openapi3/openapi.yaml` | 136 个 |
-| 4 | `https://raw.githubusercontent.com/asz798838958/aBaiFreeGPT/98e0ad6717566dcaec2a2d7feb7b3bea2458de1d/deploy/mihomo/config.example.yaml` | 102 个 |
-| 5 | `https://raw.githubusercontent.com/KaringX/karing/1d716b27f5ce8ba9287026beed0d1a81d93be272/README_examples/clash/config.yaml` | 60 个 |
-| 6 | `https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/db33cc72d81c82989a44b5b0e68d5889d4037a17/Clash/WHITE-CIDR-RU-all.yaml` | 59 个 |
-| 7 | `https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/9d1868b88821a633dcb4e1db00e5aa609c6a5d38/clash.yaml` | 57 个 |
-| 8 | `https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/db33cc72d81c82989a44b5b0e68d5889d4037a17/Clash/Vless-Reality-White-Lists-Rus-Mobile.yaml` | 56 个 |
-| 9 | `https://raw.githubusercontent.com/anaer/Sub/754ccb3067868dd2b8e0d1f25d3b71d3234045d4/proxies.yaml` | 44 个 |
-| 10 | `https://raw.githubusercontent.com/Barabama/FreeNodes/a6eee9a9cc39b7d3cca69776f17a7fe9019ad8a0/nodes/freeclashnode.yaml` | 42 个 |
-| 11 | `https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/db33cc72d81c82989a44b5b0e68d5889d4037a17/Clash/BLACK_SS+All_RUS.yaml` | 42 个 |
-| 12 | `https://raw.githubusercontent.com/juewuy/ShellCrash/de1d9e20f71a77e794519d1c42d713253714f2e5/rules/clash_providers/ShellCrash_RS_Full_BanAds.yaml` | 39 个 |
-| 13 | `https://raw.githubusercontent.com/HenryChiao/MIHOMO_YAMLS/b21425281c93a2365b2fc6e7f4a97dcdcd102214/Overwrite/THENEWOPENCLASH/General_Config/Pililink/3-subscription-clash-rule-set.yaml` | 38 个 |
-| 14 | `https://raw.githubusercontent.com/fl4p/batmon-ha/8b1ee5ceae018d82c9dbecd57a054cc40eb8293b/translations/en.yaml` | 37 个 |
-| 15 | `https://raw.githubusercontent.com/HenryChiao/MIHOMO_YAMLS/b21425281c93a2365b2fc6e7f4a97dcdcd102214/Overwrite/THENEWOPENCLASH/General_Config/Pililink/2-subscription-clash-rule-set.yaml` | 37 个 |
-| 16 | `https://raw.githubusercontent.com/imzyb/MiSub/168da32e712e4147729a7cf487ee3799ee48ed34/docs/external-management-api.openapi.yaml` | 32 个 |
-| 17 | `https://raw.githubusercontent.com/trump888/av9999/f45b115ee6830bc22e8bb2af4669f47204169548/subscribe/clash.yaml` | 31 个 |
-| 18 | `https://raw.githubusercontent.com/juewuy/ShellCrash/de1d9e20f71a77e794519d1c42d713253714f2e5/rules/clash_providers/DustinWin_RS_Full.yaml` | 30 个 |
-| 19 | `https://raw.githubusercontent.com/juewuy/ShellCrash/de1d9e20f71a77e794519d1c42d713253714f2e5/rules/clash_providers/DustinWin_Geo_Full.yaml` | 28 个 |
-| 20 | `https://raw.githubusercontent.com/HenryChiao/MIHOMO_YAMLS/b21425281c93a2365b2fc6e7f4a97dcdcd102214/Overwrite/THENEWOPENCLASH/General_Config/ClashConnectRules/Clash.yaml` | 27 个 |
+| 1 | `https://raw.githubusercontent.com/ReaJason/Clash-Butler/97d29b275c573e5ef5ac8149bad2d382e013fcc5/clash.yaml` | 188 个 |
+| 2 | `https://raw.githubusercontent.com/asgharkapk/Free-Clash-Meta/278cbc6d927e2ea1570f5503c090d6fba6a1cf23/Sublist/Simple/[489]___clash/10ium/HiN-VPN/subscription/base64/vless.yaml` | 169 个 |
+| 3 | `https://raw.githubusercontent.com/amir-reza-bijandi/v2ray-configs/9f43d4c4eebf87942108c6804c0dd4ae24dd8eb5/clash.yaml` | 150 个 |
+| 4 | `https://raw.githubusercontent.com/convertor-gitops/convertor/f5ab0af8357a06a5cb4e4137d871dafd75c15918/crates/convertor/clash_profile.yaml` | 128 个 |
+| 5 | `https://raw.githubusercontent.com/vxiaov/free_proxy_ss/b0ead74ad5d1a47575bb5c06ada761437960ffc0/config.yaml` | 111 个 |
+| 6 | `https://raw.githubusercontent.com/dalazhi/v2ray/58305b6d480a21f6375a6122ff9d6086d401dac2/nodes.yaml` | 75 个 |
+| 7 | `https://raw.githubusercontent.com/TailendWong/nav/7df6563e8117706c9e10ff420838f66599f7cd36/shr.yaml` | 45 个 |
+| 8 | `https://raw.githubusercontent.com/careysucci/build_openwrt/650bb6fe5984e1ec0555bed6786cfde89a514d47/clash-all-noicon-clash.yaml` | 44 个 |
+| 9 | `https://raw.githubusercontent.com/echs-top/proxy/518815d0a76cd0dabbae74404e1ed30c6b4e715b/mihomo.yaml` | 39 个 |
+| 10 | `https://raw.githubusercontent.com/huLter/Mihomo/9b9dcde6e83d06d7860cab0e4eed6a66f3027273/config.yaml` | 36 个 |
+| 11 | `https://raw.githubusercontent.com/ClashConnectRules/Self-Configuration/fb658cc85802427b749a8a7da52e7b36580d6f1d/Clash.yaml` | 27 个 |
+| 12 | `https://raw.githubusercontent.com/logicrw/clash-rules/a739c7d5acfa4eef4359117c4df91d5043d22b5c/config/clash-verge.yaml` | 24 个 |
+| 13 | `https://raw.githubusercontent.com/abse4411/projz_renpy_translation/a018cae1c161cb60ff9297dc98026f4a4efc5483/config.yaml` | 23 个 |
+| 14 | `https://raw.githubusercontent.com/dalazhi/v2ray/58305b6d480a21f6375a6122ff9d6086d401dac2/tj1.yaml` | 21 个 |
+| 15 | `https://raw.githubusercontent.com/qljsyph/ATAsst/0337032523dd9ebc2e40e960956a96495766c54e/config.yaml` | 21 个 |
+| 16 | `https://raw.githubusercontent.com/yscr3236/dinye/3131df6c1689936800cc6fb8e991dde837254c61/clash_meta_noni.yaml` | 20 个 |
+| 17 | `https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/2a654dc7a7a0990133b1e7f8626f265634691227/Archive/clash/GreenFish.yaml` | 20 个 |
+| 18 | `https://raw.githubusercontent.com/abbasdvd3/clash/984f179178e3d771844e5f3634c021849fbb645a/B.yaml` | 19 个 |
+| 19 | `https://raw.githubusercontent.com/malikshi/open_clash/5c0143e16b2a2627d18594d21b016fe141e9bb39/main.yaml` | 19 个 |
+| 20 | `https://raw.githubusercontent.com/Boshugege/singbox-config-publisher/e4dad4c0505a9f69010c44429f53baf0f475ddd8/examples/subscriptions/clash.yaml` | 17 个 |
