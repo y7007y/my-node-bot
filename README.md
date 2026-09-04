@@ -1,14 +1,14 @@
 # 💎 Clash 高质量节点优选报告
 
-> **更新时间**: 2026-09-03 20:11:37 (UTC)
+> **更新时间**: 2026-09-04 01:33:21 (UTC)
 > **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5
 
 | 排名 | 订阅链接 | 节点估算 | 
 | :--- | :--- | :--- | 
 | 1 | `https://raw.githubusercontent.com/ReaJason/Clash-Butler/97d29b275c573e5ef5ac8149bad2d382e013fcc5/clash.yaml` | 188 个 |
 | 2 | `https://raw.githubusercontent.com/shidahuilang/SS-SSR-TG-iptables-bt/0ea7c33fdd7cb23c1e191d81acd6a406d001fc19/meta.yaml` | 158 个 |
-| 3 | `https://raw.githubusercontent.com/amir-reza-bijandi/v2ray-configs/6dad9880d733a5e544a17fa8cfa748b49ad06b94/clash.yaml` | 150 个 |
-| 4 | `https://raw.githubusercontent.com/convertor-gitops/convertor/f5ab0af8357a06a5cb4e4137d871dafd75c15918/crates/convertor/clash_profile.yaml` | 128 个 |
+| 3 | `https://raw.githubusercontent.com/amir-reza-bijandi/v2ray-configs/6d06135c0ab2f5a51a5adba23148710863f7d3f6/clash.yaml` | 150 个 |
+| 4 | `https://raw.githubusercontent.com/convertor-gitops/convertor/fa31f4367e710cb0f452c6410f5cee256d84a3c7/crates/convertor/clash_profile.yaml` | 128 个 |
 | 5 | `https://raw.githubusercontent.com/vxiaov/free_proxy_ss/b0ead74ad5d1a47575bb5c06ada761437960ffc0/config.yaml` | 111 个 |
 | 6 | `https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/e0404bbb36258b4954b1527730413363936b22f9/config/clash-meta.yaml` | 85 个 |
 | 7 | `https://raw.githubusercontent.com/dalazhi/v2ray/d3f7992dfa6235b2ef2ae75f5fd792ae185f43ed/nodes.yaml` | 75 个 |
@@ -22,6 +22,6 @@
 | 15 | `https://raw.githubusercontent.com/dalazhi/v2ray/d3f7992dfa6235b2ef2ae75f5fd792ae185f43ed/tj1.yaml` | 21 个 |
 | 16 | `https://raw.githubusercontent.com/qljsyph/ATAsst/0337032523dd9ebc2e40e960956a96495766c54e/config.yaml` | 21 个 |
 | 17 | `https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/2a654dc7a7a0990133b1e7f8626f265634691227/Archive/clash/GreenFish.yaml` | 20 个 |
-| 18 | `https://raw.githubusercontent.com/malikshi/open_clash/5c0143e16b2a2627d18594d21b016fe141e9bb39/main.yaml` | 19 个 |
-| 19 | `https://raw.githubusercontent.com/abbasdvd3/clash/a0678295e1c8f9fee610f5e7adb8967a597ddbd0/B.yaml` | 19 个 |
+| 18 | `https://raw.githubusercontent.com/abbasdvd3/clash/a0678295e1c8f9fee610f5e7adb8967a597ddbd0/B.yaml` | 19 个 |
+| 19 | `https://raw.githubusercontent.com/malikshi/open_clash/5c0143e16b2a2627d18594d21b016fe141e9bb39/main.yaml` | 19 个 |
 | 20 | `https://raw.githubusercontent.com/Boshugege/singbox-config-publisher/e4dad4c0505a9f69010c44429f53baf0f475ddd8/examples/subscriptions/clash.yaml` | 17 个 |
