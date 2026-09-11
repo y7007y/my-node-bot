@@ -1,13 +1,13 @@
 # 💎 Clash 高质量节点优选报告
 
-> **更新时间**: 2026-09-10 20:08:23 (UTC)
+> **更新时间**: 2026-09-11 01:38:37 (UTC)
 > **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5
 
 | 排名 | 订阅链接 | 节点估算 | 
 | :--- | :--- | :--- | 
 | 1 | `https://raw.githubusercontent.com/ReaJason/Clash-Butler/97d29b275c573e5ef5ac8149bad2d382e013fcc5/clash.yaml` | 188 个 |
 | 2 | `https://raw.githubusercontent.com/shidahuilang/SS-SSR-TG-iptables-bt/0ea7c33fdd7cb23c1e191d81acd6a406d001fc19/meta.yaml` | 158 个 |
-| 3 | `https://raw.githubusercontent.com/amir-reza-bijandi/v2ray-configs/20fef843a23289d09c758cd7c47f267e80339c66/clash.yaml` | 150 个 |
+| 3 | `https://raw.githubusercontent.com/amir-reza-bijandi/v2ray-configs/cc479f608246ed97e37ee957f17c68e3a70a2a80/clash.yaml` | 150 个 |
 | 4 | `https://raw.githubusercontent.com/convertor-gitops/convertor/fa31f4367e710cb0f452c6410f5cee256d84a3c7/crates/convertor/clash_profile.yaml` | 128 个 |
 | 5 | `https://raw.githubusercontent.com/vxiaov/free_proxy_ss/b0ead74ad5d1a47575bb5c06ada761437960ffc0/config.yaml` | 111 个 |
 | 6 | `https://raw.githubusercontent.com/asz798838958/aBaiFreeGPT/98e0ad6717566dcaec2a2d7feb7b3bea2458de1d/deploy/mihomo/config.example.yaml` | 102 个 |
