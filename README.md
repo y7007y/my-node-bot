@@ -1,13 +1,13 @@
 # 💎 Clash 高质量节点优选报告
 
-> **更新时间**: 2026-09-14 21:05:12 (UTC)
+> **更新时间**: 2026-09-15 02:02:29 (UTC)
 > **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5
 
 | 排名 | 订阅链接 | 节点估算 | 
 | :--- | :--- | :--- | 
 | 1 | `https://raw.githubusercontent.com/asgharkapk/Free-Clash-Meta/278cbc6d927e2ea1570f5503c090d6fba6a1cf23/Sublist/Simple/[489]___clash/10ium/HiN-VPN/subscription/base64/vless.yaml` | 169 个 |
 | 2 | `https://raw.githubusercontent.com/shidahuilang/SS-SSR-TG-iptables-bt/0ea7c33fdd7cb23c1e191d81acd6a406d001fc19/meta.yaml` | 158 个 |
-| 3 | `https://raw.githubusercontent.com/amir-reza-bijandi/v2ray-configs/c1b484504c03ebfaba5dd2dd407ad454ca033228/clash.yaml` | 150 个 |
+| 3 | `https://raw.githubusercontent.com/amir-reza-bijandi/v2ray-configs/119d9c12bbd49219460c382377afe3f4e13a05bf/clash.yaml` | 150 个 |
 | 4 | `https://raw.githubusercontent.com/convertor-gitops/convertor/8d0aabc3501a1c88cfd0f5748e40e70cd37c0b51/crates/convertor/clash_profile.yaml` | 128 个 |
 | 5 | `https://raw.githubusercontent.com/vxiaov/free_proxy_ss/b0ead74ad5d1a47575bb5c06ada761437960ffc0/config.yaml` | 111 个 |
 | 6 | `https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/e0404bbb36258b4954b1527730413363936b22f9/config/clash-meta.yaml` | 85 个 |
