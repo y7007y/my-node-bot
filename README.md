@@ -1,13 +1,13 @@
 # 💎 Clash 高质量节点优选报告
 
-> **更新时间**: 2026-09-23 10:20:36 (UTC)
+> **更新时间**: 2026-09-23 15:38:05 (UTC)
 > **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5
 
 | 排名 | 订阅链接 | 节点估算 | 
 | :--- | :--- | :--- | 
 | 1 | `https://raw.githubusercontent.com/asgharkapk/Free-Clash-Meta/278cbc6d927e2ea1570f5503c090d6fba6a1cf23/Sublist/Simple/[489]___clash/10ium/HiN-VPN/subscription/base64/vless.yaml` | 169 个 |
 | 2 | `https://raw.githubusercontent.com/shidahuilang/SS-SSR-TG-iptables-bt/0ea7c33fdd7cb23c1e191d81acd6a406d001fc19/meta.yaml` | 158 个 |
-| 3 | `https://raw.githubusercontent.com/amir-reza-bijandi/v2ray-configs/be338fc751395da7dbeff36d1483dc9ca105abc4/clash.yaml` | 150 个 |
+| 3 | `https://raw.githubusercontent.com/amir-reza-bijandi/v2ray-configs/319affc421de2375dd49dd21e9a0f3422ae477a8/clash.yaml` | 150 个 |
 | 4 | `https://raw.githubusercontent.com/convertor-gitops/convertor/8d0aabc3501a1c88cfd0f5748e40e70cd37c0b51/crates/convertor/clash_profile.yaml` | 128 个 |
 | 5 | `https://raw.githubusercontent.com/vxiaov/free_proxy_ss/b0ead74ad5d1a47575bb5c06ada761437960ffc0/config.yaml` | 111 个 |
 | 6 | `https://raw.githubusercontent.com/dalazhi/v2ray/5e949c4bf0506c68673d85fdcff1b90a47d4d38d/nodes.yaml` | 75 个 |
@@ -15,8 +15,8 @@
 | 8 | `https://raw.githubusercontent.com/careysucci/build_openwrt/44adef511270f44f9148d00678bf3152bec8e433/clash-all-noicon-clash.yaml` | 44 个 |
 | 9 | `https://raw.githubusercontent.com/HenryChiao/MIHOMO_YAMLS/2cdfc8ffd18d020963bdfc5d4fd7ea71f9eddc3d/Overwrite/THENEWOPENCLASH/General_Config/Pililink/2-subscription-clash-rule-set.yaml` | 37 个 |
 | 10 | `https://raw.githubusercontent.com/huLter/Mihomo/9b9dcde6e83d06d7860cab0e4eed6a66f3027273/config.yaml` | 36 个 |
-| 11 | `https://raw.githubusercontent.com/x-bam/clash_config/7f0575e970dedff98d4756f22fc3739fc7516256/cfg/yaml/Custom_Clash_1-Subs.yaml` | 31 个 |
-| 12 | `https://raw.githubusercontent.com/lvbibir/clash/7b96d85012459afd3a3a41272e6517b44cca2b20/mihomo.yaml` | 31 个 |
+| 11 | `https://raw.githubusercontent.com/lvbibir/clash/7b96d85012459afd3a3a41272e6517b44cca2b20/mihomo.yaml` | 31 个 |
+| 12 | `https://raw.githubusercontent.com/x-bam/clash_config/7f0575e970dedff98d4756f22fc3739fc7516256/cfg/yaml/Custom_Clash_1-Subs.yaml` | 31 个 |
 | 13 | `https://raw.githubusercontent.com/feixiang-1/feixiang-1/013e8955c9da5fa031bd29681d916ee07f5cbbc5/clash/clash_meta_mihomo.yaml` | 28 个 |
 | 14 | `https://raw.githubusercontent.com/jnlaoshu/MySelf/153957c261c83779191296a7e8dfee73e3f1cc15/Mihomo/ClashVerge/Profile.yaml` | 26 个 |
 | 15 | `https://raw.githubusercontent.com/logicrw/clash-rules/25d0c3956e31753c1e431c85f0813ce8d23ce999/config/clash-verge.yaml` | 24 个 |
