@@ -1,11 +1,11 @@
 # 💎 Clash 高质量节点优选报告
 
-> **更新时间**: 2026-10-21 16:10:45 (UTC)
+> **更新时间**: 2026-10-21 20:56:47 (UTC)
 > **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5
 
 | 排名 | 订阅链接 | 节点估算 | 
 | :--- | :--- | :--- | 
-| 1 | `https://raw.githubusercontent.com/amir-reza-bijandi/v2ray-configs/7aaa45e630a147f430401453e38ad61bd5e620d9/clash.yaml` | 150 个 |
+| 1 | `https://raw.githubusercontent.com/amir-reza-bijandi/v2ray-configs/ce9e450c78a6edf5fce396725be9a6f49971db0c/clash.yaml` | 150 个 |
 | 2 | `https://raw.githubusercontent.com/ReaJason/Clash-Butler/8f7eb99d7254cf3a418d41bf0a23c4b369490d12/clash.yaml` | 134 个 |
 | 3 | `https://raw.githubusercontent.com/convertor-gitops/convertor/c842ff9139c7617fd1ce4595440422485bed7ad3/crates/convertor/clash_profile.yaml` | 128 个 |
 | 4 | `https://raw.githubusercontent.com/vxiaov/free_proxy_ss/b0ead74ad5d1a47575bb5c06ada761437960ffc0/config.yaml` | 111 个 |
@@ -22,6 +22,6 @@
 | 15 | `https://raw.githubusercontent.com/HenryChiao/MIHOMO_YAMLS/1da14865efa0216d4887d2a80dab8c87e4f3ab16/Overwrite/THENEWOPENCLASH/General_Config/ClashConnectRules/Clash.yaml` | 27 个 |
 | 16 | `https://raw.githubusercontent.com/jnlaoshu/MySelf/d3f156dd326b162ead3e3ff5f9abb9c8bcdf223f/Mihomo/ClashVerge/Profile.yaml` | 26 个 |
 | 17 | `https://raw.githubusercontent.com/logicrw/clash-rules/d5860a35733ca4fc9f2b73e478498ae1c4fe36dc/config/clash-verge.yaml` | 24 个 |
-| 18 | `https://raw.githubusercontent.com/koala73/worldmonitor/532f790bd8e643de8333f20c521e705fbc77074e/docs/api/DisplacementService.openapi.yaml` | 21 个 |
-| 19 | `https://raw.githubusercontent.com/dalazhi/v2ray/e23aeb3af3b00d28118b11d94d07d1c6e99b893d/tj1.yaml` | 21 个 |
+| 18 | `https://raw.githubusercontent.com/dalazhi/v2ray/e23aeb3af3b00d28118b11d94d07d1c6e99b893d/tj1.yaml` | 21 个 |
+| 19 | `https://raw.githubusercontent.com/koala73/worldmonitor/3de7fc21b8fe7b93a1b5c006b65ed1b2ae0fcf3c/docs/api/DisplacementService.openapi.yaml` | 21 个 |
 | 20 | `https://raw.githubusercontent.com/qljsyph/ATAsst/0337032523dd9ebc2e40e960956a96495766c54e/config.yaml` | 21 个 |
