@@ -1,27 +1,27 @@
 # 💎 Clash 高质量节点优选报告
 
-> **更新时间**: 2026-10-25 15:06:36 (UTC)
+> **更新时间**: 2026-10-25 20:03:28 (UTC)
 > **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5
 
 | 排名 | 订阅链接 | 节点估算 | 
 | :--- | :--- | :--- | 
-| 1 | `https://raw.githubusercontent.com/amir-reza-bijandi/v2ray-configs/f5a4cfcd0933126a1bc636ad3527f787574eb054/clash.yaml` | 150 个 |
+| 1 | `https://raw.githubusercontent.com/amir-reza-bijandi/v2ray-configs/7abc78a6868da6e87c5dbd0ba8ec3877953d0181/clash.yaml` | 150 个 |
 | 2 | `https://raw.githubusercontent.com/ReaJason/Clash-Butler/8f7eb99d7254cf3a418d41bf0a23c4b369490d12/clash.yaml` | 134 个 |
 | 3 | `https://raw.githubusercontent.com/convertor-gitops/convertor/c842ff9139c7617fd1ce4595440422485bed7ad3/crates/convertor/clash_profile.yaml` | 128 个 |
 | 4 | `https://raw.githubusercontent.com/vxiaov/free_proxy_ss/b0ead74ad5d1a47575bb5c06ada761437960ffc0/config.yaml` | 111 个 |
 | 5 | `https://raw.githubusercontent.com/asz798838958/aBaiFreeGPT/98e0ad6717566dcaec2a2d7feb7b3bea2458de1d/deploy/mihomo/config.example.yaml` | 102 个 |
 | 6 | `https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/fd42881eb5360cd20d04071e7627e2b1a3c7a5ab/config/clash-meta.yaml` | 85 个 |
-| 7 | `https://raw.githubusercontent.com/dalazhi/v2ray/c02761572f1ed6fe01e200f23016e145fe39e047/nodes.yaml` | 75 个 |
+| 7 | `https://raw.githubusercontent.com/dalazhi/v2ray/45b5ecf1a1ff0ee5a941245f47b5b793a9913a99/nodes.yaml` | 75 个 |
 | 8 | `https://raw.githubusercontent.com/GMD170629/ermao-library/24f2fe7752f1f020576b33719bc4c4eee3c608ea/paofu.yaml` | 56 个 |
 | 9 | `https://raw.githubusercontent.com/TailendWong/nav/7df6563e8117706c9e10ff420838f66599f7cd36/shr.yaml` | 45 个 |
 | 10 | `https://raw.githubusercontent.com/huLter/Mihomo/9b9dcde6e83d06d7860cab0e4eed6a66f3027273/config.yaml` | 36 个 |
-| 11 | `https://raw.githubusercontent.com/lvbibir/clash/13b94fe4bd9109ea43af319fe831dc9769b895e0/mihomo.yaml` | 31 个 |
-| 12 | `https://raw.githubusercontent.com/x-bam/clash_config/7f0575e970dedff98d4756f22fc3739fc7516256/cfg/yaml/Custom_Clash_1-Subs.yaml` | 31 个 |
+| 11 | `https://raw.githubusercontent.com/x-bam/clash_config/7f0575e970dedff98d4756f22fc3739fc7516256/cfg/yaml/Custom_Clash_1-Subs.yaml` | 31 个 |
+| 12 | `https://raw.githubusercontent.com/lvbibir/clash/13b94fe4bd9109ea43af319fe831dc9769b895e0/mihomo.yaml` | 31 个 |
 | 13 | `https://raw.githubusercontent.com/ClashConnectRules/Self-Configuration/e83e2bd3cc1010e0c10f317101a77397f110f95d/Clash.yaml` | 27 个 |
 | 14 | `https://raw.githubusercontent.com/jnlaoshu/MySelf/b8688fbbb0e545292292c4d4bb399179fba5172a/Mihomo/ClashVerge/Profile.yaml` | 26 个 |
 | 15 | `https://raw.githubusercontent.com/logicrw/clash-rules/d5860a35733ca4fc9f2b73e478498ae1c4fe36dc/config/clash-verge.yaml` | 24 个 |
-| 16 | `https://raw.githubusercontent.com/dalazhi/v2ray/c02761572f1ed6fe01e200f23016e145fe39e047/tj1.yaml` | 21 个 |
-| 17 | `https://raw.githubusercontent.com/koala73/worldmonitor/134938553849c8523444fd9eaed9d925a7b283b9/docs/api/DisplacementService.openapi.yaml` | 21 个 |
+| 16 | `https://raw.githubusercontent.com/dalazhi/v2ray/45b5ecf1a1ff0ee5a941245f47b5b793a9913a99/tj1.yaml` | 21 个 |
+| 17 | `https://raw.githubusercontent.com/koala73/worldmonitor/be3cd8e542c37e7db36b2ec89869f4250384c459/docs/api/DisplacementService.openapi.yaml` | 21 个 |
 | 18 | `https://raw.githubusercontent.com/qljsyph/ATAsst/0337032523dd9ebc2e40e960956a96495766c54e/config.yaml` | 21 个 |
 | 19 | `https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/2a654dc7a7a0990133b1e7f8626f265634691227/Archive/clash/GreenFish.yaml` | 20 个 |
 | 20 | `https://raw.githubusercontent.com/yscr3236/dinye/3131df6c1689936800cc6fb8e991dde837254c61/clash_meta_noni.yaml` | 20 个 |
