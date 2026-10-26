@@ -1,12 +1,12 @@
 # 💎 Clash 高质量节点优选报告
 
-> **更新时间**: 2026-10-26 11:38:40 (UTC)
+> **更新时间**: 2026-10-26 17:43:10 (UTC)
 > **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5
 
 | 排名 | 订阅链接 | 节点估算 | 
 | :--- | :--- | :--- | 
 | 1 | `https://raw.githubusercontent.com/asgharkapk/Free-Clash-Meta/278cbc6d927e2ea1570f5503c090d6fba6a1cf23/Sublist/Simple/[126]___ss/itsyebekhe/PSG/subscriptions/clash/mix.yaml` | 169 个 |
-| 2 | `https://raw.githubusercontent.com/amir-reza-bijandi/v2ray-configs/086e02f0246c65729dbc5f0400a907c02bc47502/clash.yaml` | 150 个 |
+| 2 | `https://raw.githubusercontent.com/amir-reza-bijandi/v2ray-configs/e7d848176c59194a884e37ce9ee9aa0c7cd4b7cf/clash.yaml` | 150 个 |
 | 3 | `https://raw.githubusercontent.com/ReaJason/Clash-Butler/8f7eb99d7254cf3a418d41bf0a23c4b369490d12/clash.yaml` | 134 个 |
 | 4 | `https://raw.githubusercontent.com/convertor-gitops/convertor/c842ff9139c7617fd1ce4595440422485bed7ad3/crates/convertor/clash_profile.yaml` | 128 个 |
 | 5 | `https://raw.githubusercontent.com/vxiaov/free_proxy_ss/b0ead74ad5d1a47575bb5c06ada761437960ffc0/config.yaml` | 111 个 |
@@ -21,7 +21,7 @@
 | 14 | `https://raw.githubusercontent.com/ClashConnectRules/Self-Configuration/e83e2bd3cc1010e0c10f317101a77397f110f95d/Clash.yaml` | 27 个 |
 | 15 | `https://raw.githubusercontent.com/jnlaoshu/MySelf/963937a2106c808f3e2e793f3b01feb367f8214f/Mihomo/ClashVerge/Profile.yaml` | 26 个 |
 | 16 | `https://raw.githubusercontent.com/logicrw/clash-rules/683f35ebc1599e119688475ff41ff209e9d117ba/config/clash-verge.yaml` | 24 个 |
-| 17 | `https://raw.githubusercontent.com/dalazhi/v2ray/dad55a82f93a1e612ba4547104529e7e030a1ff6/tj1.yaml` | 21 个 |
-| 18 | `https://raw.githubusercontent.com/koala73/worldmonitor/5c2db180b0c9a2ef5c445b737049344b1487b26d/docs/api/DisplacementService.openapi.yaml` | 21 个 |
-| 19 | `https://raw.githubusercontent.com/qljsyph/ATAsst/0337032523dd9ebc2e40e960956a96495766c54e/config.yaml` | 21 个 |
+| 17 | `https://raw.githubusercontent.com/koala73/worldmonitor/90f0848bdc1d958814bd523188c10764e8c8891a/docs/api/DisplacementService.openapi.yaml` | 21 个 |
+| 18 | `https://raw.githubusercontent.com/qljsyph/ATAsst/0337032523dd9ebc2e40e960956a96495766c54e/config.yaml` | 21 个 |
+| 19 | `https://raw.githubusercontent.com/dalazhi/v2ray/dad55a82f93a1e612ba4547104529e7e030a1ff6/tj1.yaml` | 21 个 |
 | 20 | `https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/2a654dc7a7a0990133b1e7f8626f265634691227/Archive/clash/GreenFish.yaml` | 20 个 |
