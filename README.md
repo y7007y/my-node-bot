@@ -1,11 +1,11 @@
 # 💎 Clash 高质量节点优选报告
 
-> **更新时间**: 2026-10-28 02:43:25 (UTC)
+> **更新时间**: 2026-10-28 11:43:22 (UTC)
 > **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5
 
 | 排名 | 订阅链接 | 节点估算 | 
 | :--- | :--- | :--- | 
-| 1 | `https://raw.githubusercontent.com/amir-reza-bijandi/v2ray-configs/eb841f86c1d030c28e4941a17328e8216e061db3/clash.yaml` | 150 个 |
+| 1 | `https://raw.githubusercontent.com/amir-reza-bijandi/v2ray-configs/4305d4ef240736233dc38b91c02370eb71acdfb2/clash.yaml` | 150 个 |
 | 2 | `https://raw.githubusercontent.com/convertor-gitops/convertor/c842ff9139c7617fd1ce4595440422485bed7ad3/crates/convertor/clash_profile.yaml` | 128 个 |
 | 3 | `https://raw.githubusercontent.com/asz798838958/aBaiFreeGPT/98e0ad6717566dcaec2a2d7feb7b3bea2458de1d/deploy/mihomo/config.example.yaml` | 102 个 |
 | 4 | `https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/fd42881eb5360cd20d04071e7627e2b1a3c7a5ab/config/clash-meta.yaml` | 85 个 |
@@ -19,9 +19,9 @@
 | 12 | `https://raw.githubusercontent.com/lvbibir/clash/13b94fe4bd9109ea43af319fe831dc9769b895e0/mihomo.yaml` | 31 个 |
 | 13 | `https://raw.githubusercontent.com/x-bam/clash_config/7f0575e970dedff98d4756f22fc3739fc7516256/cfg/yaml/Custom_Clash_1-Subs.yaml` | 31 个 |
 | 14 | `https://raw.githubusercontent.com/ClashConnectRules/Self-Configuration/e83e2bd3cc1010e0c10f317101a77397f110f95d/Clash.yaml` | 27 个 |
-| 15 | `https://raw.githubusercontent.com/jnlaoshu/MySelf/33812e140c5f9ba7879f5436a75ddd19134de3ce/Mihomo/ClashVerge/Profile.yaml` | 26 个 |
+| 15 | `https://raw.githubusercontent.com/jnlaoshu/MySelf/0aa9fa0a8e565b69792e3a0d9129534889c4d082/Mihomo/ClashVerge/Profile.yaml` | 26 个 |
 | 16 | `https://raw.githubusercontent.com/logicrw/clash-rules/683f35ebc1599e119688475ff41ff209e9d117ba/config/clash-verge.yaml` | 24 个 |
-| 17 | `https://raw.githubusercontent.com/dalazhi/v2ray/149639b64db395378c9e33faa036e273aead9e07/tj1.yaml` | 21 个 |
-| 18 | `https://raw.githubusercontent.com/qljsyph/ATAsst/0337032523dd9ebc2e40e960956a96495766c54e/config.yaml` | 21 个 |
+| 17 | `https://raw.githubusercontent.com/qljsyph/ATAsst/0337032523dd9ebc2e40e960956a96495766c54e/config.yaml` | 21 个 |
+| 18 | `https://raw.githubusercontent.com/dalazhi/v2ray/149639b64db395378c9e33faa036e273aead9e07/tj1.yaml` | 21 个 |
 | 19 | `https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/2a654dc7a7a0990133b1e7f8626f265634691227/Archive/clash/GreenFish.yaml` | 20 个 |
 | 20 | `https://raw.githubusercontent.com/abbasdvd3/clash/75df8913399225caf6dd1d88e9a4ae4768be4c1b/B.yaml` | 19 个 |
