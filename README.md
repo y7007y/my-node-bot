@@ -1,12 +1,12 @@
 # 💎 Clash 高质量节点优选报告
 
-> **更新时间**: 2026-10-31 16:23:06 (UTC)
+> **更新时间**: 2026-10-31 20:42:58 (UTC)
 > **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5
 
 | 排名 | 订阅链接 | 节点估算 | 
 | :--- | :--- | :--- | 
 | 1 | `https://raw.githubusercontent.com/asgharkapk/Free-Clash-Meta/278cbc6d927e2ea1570f5503c090d6fba6a1cf23/Sublist/Simple/[489]___clash/10ium/HiN-VPN/subscription/base64/vless.yaml` | 169 个 |
-| 2 | `https://raw.githubusercontent.com/amir-reza-bijandi/v2ray-configs/7a0d84103ab9ab020dee52f2800dbafbfb4c6d6a/clash.yaml` | 150 个 |
+| 2 | `https://raw.githubusercontent.com/amir-reza-bijandi/v2ray-configs/d293261c018c6f91c33235f950a41c2f9b29e239/clash.yaml` | 150 个 |
 | 3 | `https://raw.githubusercontent.com/convertor-gitops/convertor/c842ff9139c7617fd1ce4595440422485bed7ad3/crates/convertor/clash_profile.yaml` | 128 个 |
 | 4 | `https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/fd42881eb5360cd20d04071e7627e2b1a3c7a5ab/config/clash-meta.yaml` | 85 个 |
 | 5 | `https://raw.githubusercontent.com/dalazhi/v2ray/3542a0efc7af86707d498f858260abd798723e70/nodes.yaml` | 75 个 |
