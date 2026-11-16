@@ -1,6 +1,6 @@
 # 💎 Clash 高质量节点优选报告
 
-> **更新时间**: 2026-11-15 22:09:19 (UTC)
+> **更新时间**: 2026-11-16 03:23:18 (UTC)
 > **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5
 
 | 排名 | 订阅链接 | 节点估算 | 
@@ -13,7 +13,7 @@
 | 6 | `https://raw.githubusercontent.com/GMD170629/ermao-library/21b5715e884fda4375c2621b96f0751f4d542703/paofu.yaml` | 56 个 |
 | 7 | `https://raw.githubusercontent.com/TailendWong/nav/7df6563e8117706c9e10ff420838f66599f7cd36/shr.yaml` | 45 个 |
 | 8 | `https://raw.githubusercontent.com/Cyclince/Custom_rules/11e4489ea1f6c086d39da00abd159651f4d6a0f3/Clash/Override/Clash_Custom_Override.yaml` | 40 个 |
-| 9 | `https://raw.githubusercontent.com/echs-top/proxy/bdf669a4a05aae8ef077e1f8fab3cf641138c62a/mihomo.yaml` | 39 个 |
+| 9 | `https://raw.githubusercontent.com/echs-top/proxy/1a78062ff048a446891e04d18150ac695180b847/mihomo.yaml` | 39 个 |
 | 10 | `https://raw.githubusercontent.com/HenryChiao/MIHOMO_YAMLS/3867ed01ea6c47a4e649b96f82fd483af576f674/Overwrite/THENEWOPENCLASH/General_Config/Pililink/3-subscription-clash-rule-set.yaml` | 38 个 |
 | 11 | `https://raw.githubusercontent.com/huLter/Mihomo/9b9dcde6e83d06d7860cab0e4eed6a66f3027273/config.yaml` | 36 个 |
 | 12 | `https://raw.githubusercontent.com/shidahuilang/SS-SSR-TG-iptables-bt/78e91488c48c615540b4d0c936e49461ce90bf67/meta.yaml` | 34 个 |
@@ -22,6 +22,6 @@
 | 15 | `https://raw.githubusercontent.com/logicrw/clash-rules/683f35ebc1599e119688475ff41ff209e9d117ba/config/clash-verge.yaml` | 24 个 |
 | 16 | `https://raw.githubusercontent.com/dalazhi/v2ray/4144b0c21c29914223b9f6e9adc5de4b155b4eaa/tj1.yaml` | 21 个 |
 | 17 | `https://raw.githubusercontent.com/qljsyph/ATAsst/0337032523dd9ebc2e40e960956a96495766c54e/config.yaml` | 21 个 |
-| 18 | `https://raw.githubusercontent.com/n0de-sudo/Perfect-Rules/04a2304f5581684f3362083803193b2e4a38f3d5/Clash/Clash_merge.yaml` | 19 个 |
-| 19 | `https://raw.githubusercontent.com/malikshi/open_clash/5c0143e16b2a2627d18594d21b016fe141e9bb39/main.yaml` | 19 个 |
+| 18 | `https://raw.githubusercontent.com/malikshi/open_clash/5c0143e16b2a2627d18594d21b016fe141e9bb39/main.yaml` | 19 个 |
+| 19 | `https://raw.githubusercontent.com/n0de-sudo/Perfect-Rules/04a2304f5581684f3362083803193b2e4a38f3d5/Clash/Clash_merge.yaml` | 19 个 |
 | 20 | `https://raw.githubusercontent.com/abbasdvd3/clash/57880b3cac3c67d1c41d27ee4d6b485a256d2a0c/B.yaml` | 19 个 |
