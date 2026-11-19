@@ -1,6 +1,6 @@
 # 💎 Clash 高质量节点优选报告
 
-> **更新时间**: 2026-11-19 14:45:58 (UTC)
+> **更新时间**: 2026-11-19 23:56:52 (UTC)
 > **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5
 
 | 排名 | 订阅链接 | 节点估算 | 
@@ -20,8 +20,8 @@
 | 13 | `https://raw.githubusercontent.com/jnlaoshu/MySelf/d2eaa3ab88f4e28ef91a92ca428c7e09688ba311/Mihomo/ClashVerge/Profile.yaml` | 26 个 |
 | 14 | `https://raw.githubusercontent.com/logicrw/clash-rules/683f35ebc1599e119688475ff41ff209e9d117ba/config/clash-verge.yaml` | 24 个 |
 | 15 | `https://raw.githubusercontent.com/LingJingMaster/Clash-Rules/a7b087bf83382b70121a7a4cd5a8394cbe60d2d8/Clash.yaml` | 24 个 |
-| 16 | `https://raw.githubusercontent.com/dalazhi/v2ray/78175915570ddb779a576fcddb571b428735e37f/tj1.yaml` | 21 个 |
-| 17 | `https://raw.githubusercontent.com/qljsyph/ATAsst/0337032523dd9ebc2e40e960956a96495766c54e/config.yaml` | 21 个 |
+| 16 | `https://raw.githubusercontent.com/qljsyph/ATAsst/0337032523dd9ebc2e40e960956a96495766c54e/config.yaml` | 21 个 |
+| 17 | `https://raw.githubusercontent.com/dalazhi/v2ray/78175915570ddb779a576fcddb571b428735e37f/tj1.yaml` | 21 个 |
 | 18 | `https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/2a654dc7a7a0990133b1e7f8626f265634691227/Archive/clash/GreenFish.yaml` | 20 个 |
-| 19 | `https://raw.githubusercontent.com/abbasdvd3/clash/bdeb267b3058877a35eb02d80284b4316347b86b/B.yaml` | 19 个 |
+| 19 | `https://raw.githubusercontent.com/dqtx760/Proxyfree/6b39c45776040a95e7841416c8a299741db644e1/Perfect-Rules/Clash_merge.yaml` | 19 个 |
 | 20 | `https://raw.githubusercontent.com/malikshi/open_clash/5c0143e16b2a2627d18594d21b016fe141e9bb39/main.yaml` | 19 个 |
