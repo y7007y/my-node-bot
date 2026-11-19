@@ -1,6 +1,6 @@
 # 💎 Clash 高质量节点优选报告
 
-> **更新时间**: 2026-11-18 23:38:22 (UTC)
+> **更新时间**: 2026-11-19 04:41:18 (UTC)
 > **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5
 
 | 排名 | 订阅链接 | 节点估算 | 
@@ -17,8 +17,8 @@
 | 10 | `https://raw.githubusercontent.com/shidahuilang/SS-SSR-TG-iptables-bt/78e91488c48c615540b4d0c936e49461ce90bf67/meta.yaml` | 34 个 |
 | 11 | `https://raw.githubusercontent.com/x-bam/clash_config/7f0575e970dedff98d4756f22fc3739fc7516256/cfg/yaml/Custom_Clash_1-Subs.yaml` | 31 个 |
 | 12 | `https://raw.githubusercontent.com/ClashConnectRules/Self-Configuration/e83e2bd3cc1010e0c10f317101a77397f110f95d/Clash.yaml` | 27 个 |
-| 13 | `https://raw.githubusercontent.com/logicrw/clash-rules/683f35ebc1599e119688475ff41ff209e9d117ba/config/clash-verge.yaml` | 24 个 |
-| 14 | `https://raw.githubusercontent.com/LingJingMaster/Clash-Rules/a7b087bf83382b70121a7a4cd5a8394cbe60d2d8/Clash.yaml` | 24 个 |
+| 13 | `https://raw.githubusercontent.com/LingJingMaster/Clash-Rules/a7b087bf83382b70121a7a4cd5a8394cbe60d2d8/Clash.yaml` | 24 个 |
+| 14 | `https://raw.githubusercontent.com/logicrw/clash-rules/683f35ebc1599e119688475ff41ff209e9d117ba/config/clash-verge.yaml` | 24 个 |
 | 15 | `https://raw.githubusercontent.com/dalazhi/v2ray/78175915570ddb779a576fcddb571b428735e37f/tj1.yaml` | 21 个 |
 | 16 | `https://raw.githubusercontent.com/qljsyph/ATAsst/0337032523dd9ebc2e40e960956a96495766c54e/config.yaml` | 21 个 |
 | 17 | `https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/2a654dc7a7a0990133b1e7f8626f265634691227/Archive/clash/GreenFish.yaml` | 20 个 |
