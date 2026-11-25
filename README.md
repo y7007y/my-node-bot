@@ -1,6 +1,6 @@
 # 💎 Clash 高质量节点优选报告
 
-> **更新时间**: 2026-11-24 16:33:28 (UTC)
+> **更新时间**: 2026-11-25 01:39:56 (UTC)
 > **筛选标准**: 文件 > 1KB 且 节点数 ≥ 5
 
 | 排名 | 订阅链接 | 节点估算 | 
@@ -22,6 +22,6 @@
 | 15 | `https://raw.githubusercontent.com/qljsyph/ATAsst/0337032523dd9ebc2e40e960956a96495766c54e/config.yaml` | 21 个 |
 | 16 | `https://raw.githubusercontent.com/dalazhi/v2ray/ecda4907deb6e9676a0e76a9d78aeb8f239511eb/tj1.yaml` | 21 个 |
 | 17 | `https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/2a654dc7a7a0990133b1e7f8626f265634691227/Archive/clash/GreenFish.yaml` | 20 个 |
-| 18 | `https://raw.githubusercontent.com/abbasdvd3/clash/dfbe9e2befb6def7058a22a78cb29e22579758df/B.yaml` | 19 个 |
-| 19 | `https://raw.githubusercontent.com/dqtx760/Proxyfree/369dc2356a01d6876462f39f02aa84f22a098f2f/Perfect-Rules/Clash_merge.yaml` | 19 个 |
-| 20 | `https://raw.githubusercontent.com/malikshi/open_clash/5c0143e16b2a2627d18594d21b016fe141e9bb39/main.yaml` | 19 个 |
+| 18 | `https://raw.githubusercontent.com/malikshi/open_clash/5c0143e16b2a2627d18594d21b016fe141e9bb39/main.yaml` | 19 个 |
+| 19 | `https://raw.githubusercontent.com/abbasdvd3/clash/dfbe9e2befb6def7058a22a78cb29e22579758df/B.yaml` | 19 个 |
+| 20 | `https://raw.githubusercontent.com/dqtx760/Proxyfree/369dc2356a01d6876462f39f02aa84f22a098f2f/Perfect-Rules/Clash_merge.yaml` | 19 个 |
